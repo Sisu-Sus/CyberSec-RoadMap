@@ -50,6 +50,85 @@ Logs are records of system events, application behaviour, and user activity, whi
 ### Resource 
 [https://cdnsm5-ss6.sharpschool.com/userfiles/servers/server_20856499/file/teacher%20pages/lindsay%20dolezal/it%20essentials/5.6.pdf](https://cdnsm5-ss6.sharpschool.com/userfiles/servers/server_20856499/file/teacher%20pages/lindsay%20dolezal/it%20essentials/5.6.pdf)
 
+## Applying the Process
+
+### Step 1: Identify the problem 
+Open-Ended Questions:
+  - What problems are you having?
+  - What operating system is installed on the computer?
+  - What updates have you performed lately?
+  - What programs have you installed recently?
+  - What were you doing when the problem was discovered?
+
+
+Closed-Ended Questions:
+  - Can you boot the operating system?
+  - Can you boot up in safe mode?
+  - Have you changed your password recently?
+  - Have you seen any error messages on the computer?
+  - Has anyone else used the computer recently?
+  - Has any hardware been added recently?
+
+### Step 2: Establish a Theory of Probable Cause
+Common Causes of Operating System Problems:
+  - Incorrect settings in BIOS
+  - Caps lock key is set to on
+  - Non-bootable media in the floppy drive during computer boot up
+  - Password has been changed
+  - Incorrect monitor settings in control panel
+  - Operating system update failure
+  - Driver update failure
+  - Malware infection
+  - Hard drive failure
+  - Corrupt operating system files
+
+### Step 3: Test the Theory to Determine Cause
+Common steps to determine cause:
+  - Log in as a different user
+  - User a third party diagnostic software
+  - Determine if new software or software updates have just been installed
+  - Uninstalled recently installed applications
+  - Boot into safe mode to determine if the problem is driver-related
+  - Roll back newly updated drivers
+  - Examine Device Manager for device conflicts
+  - Examine Event logs for warning or errors
+  - Check the hardrive for error and fix file system issues
+  - Use the system file checker to recover corrupt system files
+  - Use system restore if a system update or service pack has been installed
+
+### Step 4: Establish Plan/Implement Solution
+If no solution is achieved in the previous step, further research is need to implement the solution:
+  - HelpDesk Repair Logs
+  - Other technicians
+  - Manufacturer FAQs
+  - Technical Websites
+  - Newsgroups
+  - Computer Manuals
+  - Online Forums
+  - Internet Search
+
+### Step 5: Verify Full System Functionality and if Applicable Implement Preventative Measures
+Verify full functionality:
+  - Shutdown the computer and restart it
+  - Check the event logs to make sure there are no new warning or errors
+  - Check Device Manager to see that there are no warnings or errors
+  - Run DxDiag to make sure DirectX is running correctly
+  - Make sure applications run properly
+  - Make sure netowrk shares are accessible
+  - Make sure the internet can be accessed
+  - Re-run system file check to ensure all files are correct
+  - Check Task Manager to ensure that the status of all programs is running
+  - Re-run any third party diagnostic tools
+
+### Step 6: Document Findings, Actions, and Outcomes
+Document your findings, actions, and outcomes:
+  - Discuss the solution implemented with the customer
+  - Have the customer verify that the problem has been solved
+  - Provide the customer with all paperwork
+  - Document the steps taken to solve the problem in the work order and the technicians journal
+  - Document any components used in the repair
+  - Document the time spent to resolve the problem
+
 ### Next Step
 - [Understanding Basics of Popular Suites](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Understanding_Basics_of_Popular_Suites/Understanding_Basics_of_Popular_Suites.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
