@@ -7,4 +7,4 @@ Fundamental IT skills form the  backbone of cybersecurity proficiency and encomp
 One resource I can personally recommend and used is [https://automatetheboringstuff.com](https://automatetheboringstuff.com) for python. Theres many books to read through and I feel it's a great starting point if you are here just because you like how hackerman sounds. Many people struggle with being overwhelmed and just learning some syntax and how a langauge works can help greatly, especially when you have no clue why some this isn't   --*or is*--   working right.
 
 ### Next Steps
-[https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Computer_Hardware_Components.md](Computer Hardware Components)
+[https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Computer_Hardware_Components.md](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Computer_Hardware_Components.md)
