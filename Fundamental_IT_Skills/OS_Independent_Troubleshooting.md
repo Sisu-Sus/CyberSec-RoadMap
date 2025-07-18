@@ -7,7 +7,7 @@ In order to troubleshoot effectively, it is important to recognize and understan
 
 
 ### Basic Troubleshooting Process
-Folloing a systematic troubleshooting process is critical, regardless of the operating system. Here are the basic steps you might follow:
+Following a systematic troubleshooting process is critical, regardless of the operating system. Here are the basic steps you might follow:
 
 - Identify the problem: Gather information on the issue and its symptoms, and attempt to reproduce the problem, if possible. Take note of any error messages or unusual behaviours.
 
@@ -31,7 +31,7 @@ To pinpoint the root cause of an issue, it's imporant to isolate the problem. Yo
 ### Networking and Connectivity Issues
 Effective troubleshooting of network-related issues requires an understanding of various protocols, tools, and devices involved in networking. Heres some basic steps to follow:
 
-- Verify physical connectivity: Inpspect cables, connectors, and devices to ensure all components are securely connected and functioning correctly.
+- Verify physical connectivity: Inspect cables, connectors, and devices to ensure all components are securely connected and functioning correctly.
 
 - Confirm IP configurations: Check the system's IP address and related settings to ensure a valid IP configuration.
 
@@ -87,7 +87,7 @@ Common steps to determine cause:
   - Log in as a different user
   - User a third party diagnostic software
   - Determine if new software or software updates have just been installed
-  - Uninstalled recently installed applications
+  - Uninstall recently installed applications
   - Boot into safe mode to determine if the problem is driver-related
   - Roll back newly updated drivers
   - Examine Device Manager for device conflicts
@@ -114,7 +114,7 @@ Verify full functionality:
   - Check Device Manager to see that there are no warnings or errors
   - Run DxDiag to make sure DirectX is running correctly
   - Make sure applications run properly
-  - Make sure netowrk shares are accessible
+  - Make sure network shares are accessible
   - Make sure the internet can be accessed
   - Re-run system file check to ensure all files are correct
   - Check Task Manager to ensure that the status of all programs is running
