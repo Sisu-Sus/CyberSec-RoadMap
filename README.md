@@ -8,7 +8,7 @@ I'm using this as a framework to organize my thoughts, test ideas in my homelab,
 
 - To make my learning **visible**, not just personal
 - To track and build a body of work that shows I understand more than just definitions.
-- To eventually help others think like me--curious, chaotic, and tring to find signal in all the noise.
+- To eventually help others think like me -- curious, chaotic, and tring to find signal in all the noise.
 
 ## What's Inside
 
