@@ -12,3 +12,4 @@ The RoadMap topics in order:
 - [NFC](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Connection_Types_And_Functions/NFC.md)
 - [Wi-Fi](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Connection_Types_And_Functions/WiFi.md)
 - [Infared](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Connection_Types_And_Functions/Infared.md)
+- [OS-Independent Troubleshooting](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/OS_Independent_Troubleshooting.md)
