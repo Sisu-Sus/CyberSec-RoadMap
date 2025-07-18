@@ -31,4 +31,5 @@ The primary purpose of integrating infared within cybersecurity protocols is to 
 
 
 ### Next Step
+- [OS-Independent Troubleshooting](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/OS_Independent_Troubleshooting.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
