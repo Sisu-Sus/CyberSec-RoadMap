@@ -48,3 +48,7 @@ The GPU is responsible for processing graphical data. Although GPU upgrades are 
 ### PSU
 
 The PSU is responsible for passing electricity to the motherboard for the rest of the hardware. It is important to use rated PSU's to effectively power your PC and not burn your house down. ( I found a 500w for $40 with no rating that looked like it was ready to party out of the box) 
+
+
+### Next Step
+[Connection Types](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Connection_Types_And_Functions/Connection_Types_And_Functions.md) 
