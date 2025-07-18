@@ -1,2 +1,34 @@
 # CyberSec-RoadMap
-Let's take a tour of https://roadmap.sh/cyber-security
+
+This repo is my personal journey through the cybersecurity landscape, based on [https://roadmap.sh/cyber-security](https://roadmap.sh/cyber-security).
+
+I'm using this as a framework to organize my thoughts, test ideas in my homelab, and reflect on how I learn and apply each concept. It'snot a boot camp assignment or formal schoolwork-just raw documentation as I go.
+
+## Why I'm Doing This
+
+- To make my learning **visible**, not just personal
+- To track and build a body of work that shows I understand more than just definitions.
+- To eventually help others think like me--curious, chaotic, and tring to find signal in all the noise.
+
+## What's Inside
+
+Each folder or markdownfile in this repo corresponds to a section from the roadmap. Inside you'll find:
+
+- **Topic Summaries** in my own words
+- **Hands-on lab reflections** (When I build or test something)
+- **Thoughts on real-world application**
+- **Write-ups** on anything that sparks a deeper idea
+
+## Live Progess (WIP)
+
+-[ ] Fundamental IT Skills
+-[ ] Operating Systems
+-[ ] Networking Knowledge
+-[ ] Security Skills and Knowledge
+-[ ] Cloud Skills and Knowledge
+-[ ] Programming Skills
+
+## Related Work
+
+If you're interested in more experimental or deeper signal-related work, check out my other repo: 
+
