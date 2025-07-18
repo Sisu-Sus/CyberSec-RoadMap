@@ -50,8 +50,8 @@ Brant
 
 
 ### Start Here
-[Start RoadMap](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Fundamental_IT_Skills.md)
-
+- [Start RoadMap](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Fundamental_IT_Skills.md)
+- [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
 ---
 
 
