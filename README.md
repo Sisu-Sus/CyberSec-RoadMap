@@ -47,3 +47,7 @@ This will be updated steadily as I go. It's imperfect on purpose. If you found t
 
 -
 Brant
+
+
+### Start Here
+[Start RoadMap](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Fundamental_IT_Skills.md)
