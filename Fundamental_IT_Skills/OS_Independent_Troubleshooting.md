@@ -39,9 +39,16 @@ Effective troubleshooting of network-related issues requires an understanding of
 
 ### Log Analysis
 
-Logs are records of system events, application behaviour
+Logs are records of system events, application behaviour, and user activity, which can be invaluable when troubleshooting issues. To effectively analyze logs, you should:
 
+- Identify relevant logs: Determine which log files contain information related to the problem under investigation.
 
+- Analyze log content: Examine events, error messages, or patterns that might shed light on the root cause of the issue.
+
+- Leverage log-analysis tools: Utilize specialized tools or scripts to help parse, filter, and anaylyze large or complex log files.
+
+### Resource 
+[https://cdnsm5-ss6.sharpschool.com/userfiles/servers/server_20856499/file/teacher%20pages/lindsay%20dolezal/it%20essentials/5.6.pdf](https://cdnsm5-ss6.sharpschool.com/userfiles/servers/server_20856499/file/teacher%20pages/lindsay%20dolezal/it%20essentials/5.6.pdf)
 
 ### Next Step
 - [Understanding Basics of Popular Suites](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Understanding_Basics_of_Popular_Suites/Understanding_Basics_of_Popular_Suites.md)
