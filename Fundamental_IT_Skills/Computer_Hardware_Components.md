@@ -51,4 +51,5 @@ The PSU is responsible for passing electricity to the motherboard for the rest o
 
 
 ### Next Step
-[Connection Types](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Connection_Types_And_Functions/Connection_Types_And_Functions.md) 
+- [Connection Types](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Connection_Types_And_Functions/Connection_Types_And_Functions.md) 
+- [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
