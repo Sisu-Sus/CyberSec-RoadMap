@@ -31,7 +31,7 @@ Other 802.11 standards focus on specific applications of wireless networks.
 
 
 ### Next Step
--[]()
+-[Bluetooth](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Connection_Types_And_Functions/Bluetooth.md)
 -[Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
 
 
