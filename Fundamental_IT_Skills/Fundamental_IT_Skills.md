@@ -19,5 +19,13 @@ One resource I can personally recommend and used is [https://automatetheboringst
 - Organization:
   IT professionals commonly work on multiple projects or multiple aspects of a job simultaneously, making it important to be organized. I would personally recommend finding a good workflow for your workstation. I personally use Linux with a shell allowing me to switch between common tasks almost instantly. I suggest spending the time to work on your own lab/PC for a day and get comfortable being quick on something.
 
+- Leadership: Professionals with developed leadership skills may be able to motivate others and be ascended to a managerial position.
+
+- Analytical: You will likely work on a variety of projects that require you to analyze different types of activity. Being able to think analytically is said to help discover effective solutions.
+
+- Troubleshooting: Working on troublehshooting skills, using different resources, vastly improves your troubleshooting skills. If you have to use ChatGPT to solve the same issue 5 times, you are not being effective.
+
+- Time Management: Maximizing your output with timemanagement is an effective skill to master. Being able to focus effectively and use your time wisely will greatly help you not feel overwhelmed, especially in the beginning. Try to make small goals. I would start with maybe one page a day, or one topic a day, or one langauge a day -- **Whatever your rate is, it's fast enough. **
+
 ### Next Step
 - [Computer Hardware Components](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Computer_Hardware_Components.md)
