@@ -32,8 +32,8 @@ Later, Ethernet hubs largely gave way to network switches. Becasue a hub cannot 
 In contrast, a switch intelligently sends any given port only the traffic intended for its devices rather than copies of any and all the transmissions on the network segment, thus improving security and efficiency. Like with other network types, invloved computers must include a Network Interface Card (NIC) to connect to Ethernet.
 
 ### Next Step
-
-
+- [NFC](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Connection_Types_And_Functions/NFC.md)
+- [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
 
 
 
