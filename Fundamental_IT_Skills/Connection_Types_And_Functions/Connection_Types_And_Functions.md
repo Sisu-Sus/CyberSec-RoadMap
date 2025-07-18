@@ -25,7 +25,15 @@ Etheret defines two units of transmissions: packet and frame. The frame includes
 
 I feel it is worth noting that if two devices share a hub and try to transmit data at the same time, packet collision occurs and creates connectivity problems. To alleviate this, IEEE developed the Carrier Sense Multiple Access with Collision Detection protocol. 
 
-This is where things like IEEE 802.3 and collision domains get fascinating. If you're into signal-level behavior and medium access control, I took a deep dive in my 
+This is where things like IEEE 802.3 and collision domains get fascinating. If you're into signal-level behavior and medium access control, I took a deep dive in in my [Signal Path notes](https://github.com/Sisu-Sus/Signal_Path/blob/main/signal_path.txt).
+
+Later, Ethernet hubs largely gave way to network switches. Becasue a hub cannot descriminate between points on a network segment, it can't send data directly from point A to point B. Instead, whenever a network device sends a transmission via an input port, the hub copies the data and distributes it to all available output ports.
+
+In contrast, a switch intelligently sends any given port only the traffic intended for its devices rather than copies of any and all the transmissions on the network segment, thus improving security and efficiency. Like with other network types, invloved computers must include a Network Interface Card (NIC) to connect to Ethernet.
+
+### Next Step
+
+
 
 
 
