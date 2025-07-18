@@ -29,3 +29,4 @@ One resource I can personally recommend and used is [https://automatetheboringst
 
 ### Next Step
 - [Computer Hardware Components](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Computer_Hardware_Components.md)
+- [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
