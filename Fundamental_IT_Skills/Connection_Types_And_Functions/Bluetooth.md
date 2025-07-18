@@ -38,7 +38,7 @@ Various integrated elements of Bluetooth technology enhance the technology's sec
 - Don't set up pairing via public connections. Always pair two devices from a secure location when doing so for the first time.
 - When not in use, turn off Bluetooth
 - Steer clear of Bluetooth while exchanging private information
-- Be cautios about who you share your Bluetooth connection with
+- Be cautious about who you share your Bluetooth connection with
 - Always update your operating system and drivers when needed
 - Removing previous uneccessary Bluetooth connections is advised
 - Ensure that your device is untracable
