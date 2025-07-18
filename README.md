@@ -2,7 +2,7 @@
 
 This repo is my personal journey through the cybersecurity landscape, based on [https://roadmap.sh/cyber-security](https://roadmap.sh/cyber-security).
 
-I'm using this as a framework to organize my thoughts, test ideas in my homelab, and reflect on how I learn and apply each concept. It'snot a boot camp assignment or formal schoolwork-just raw documentation as I go.
+I'm using this as a framework to organize my thoughts, test ideas in my homelab, and reflect on how I learn and apply each concept. It's not a boot camp assignment or formal schoolwork -- just raw documentation as I go.
 
 ## Why I'm Doing This
 
