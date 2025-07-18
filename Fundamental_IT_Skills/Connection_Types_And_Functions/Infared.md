@@ -8,7 +8,7 @@ Infared (IR) is a type of wireless communication technology that utilizes lightw
 [https://nordvpn.com/cybersecurity/glossary/infrared/?srsltid=AfmBOop7r5E41gRA5itc1NmwrS9qpjfiFnW6UKBwVLuu_MifaKdLHoTe](https://nordvpn.com/cybersecurity/glossary/infrared/?srsltid=AfmBOop7r5E41gRA5itc1NmwrS9qpjfiFnW6UKBwVLuu_MifaKdLHoTe)
 
 ### Infared Misuse
-- Spoofing devices on the same network: Infared smart light bulbds can serve as the ideal solution for hackers to spoof all connected devices on one Wi-Fi network. Then, they can cause data leaks or steal confidential data, such as IP addresses.
+- Spoofing devices on the same network: Infared smart light bulbs can serve as the ideal solution for hackers to spoof all connected devices on one Wi-Fi network. Then, they can cause data leaks or steal confidential data, such as IP addresses.
 
 - Controlling the Infared wave: Once they intercept the connection, they will be able to constantly monitor the data that two devices share and steal data users store on their computers, such as login credentialsm messages, and emails. Such hacking requires advanced technical knowledge and equipment and is therefore less common than other types of attacks.
 
