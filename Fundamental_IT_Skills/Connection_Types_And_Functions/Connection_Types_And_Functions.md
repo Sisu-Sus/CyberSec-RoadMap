@@ -13,3 +13,6 @@ There are several types of network connections that enable communcication betwee
 - Cullular Connections: Cellular connections such as 4G and 5G, allow mobile devices to connect through cellular networks, speeds and reliability vary depending on network.
 
 Each connection type plays a specific role, balancing factors like speed, distance, and convenience.
+
+### Resources
+[https://www.techtarget.com/searchnetworking/definition/Ethernet](https://www.techtarget.com/searchnetworking/definition/Ethernet)
