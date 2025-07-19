@@ -26,3 +26,4 @@
 - [Different Versions and Differences](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Different_Versions_and_Differences.md)
 - [Navigating Using GUI and CLI](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Navigating_using_GUI_and_CLI.md)
 - [Understanding Permissions](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Understand_Permissions.md)
+- [Installing Software And Applications](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Installing_Software_And_Applications.md)
