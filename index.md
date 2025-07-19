@@ -22,3 +22,4 @@
 - [Windows](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/windows.md)
 - [Linux](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/linux.md)
 - [MacOS]()
+- [Installation and Configuration](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Installation_and_Configuration.md)
