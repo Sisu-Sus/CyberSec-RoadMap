@@ -10,7 +10,7 @@ Computer Networking is the practice of connecting computers and devices to share
 Switches, routers, and wireless access points are the essential network basics. Through them, devices connected to your network can communicate with one another and with other networks, like the Internet. Switches, routers, and wireless access points perform very different functions in a network.
 
 ### Switches
-Switches are the foundation of most business networks. A switch acts as a controller, conencting computers, printers, and servers to a network in a building or a campus. Switches allow devices on your network to communicate with each other, as well as with other networks, creating a network of shared resources. Through information sharing and resource allocation, switches save money and increase productivity.
+Switches are the foundation of most business networks. A switch acts as a controller, connecting computers, printers, and servers to a network in a building or a campus. Switches allow devices on your network to communicate with each other, as well as with other networks, creating a network of shared resources. Through information sharing and resource allocation, switches save money and increase productivity.
 
 ### Routers
 Routers connect multiple networks together. They also connect computers on those networks to the Internet. Routers enable all networked computers to share a single Internet connection, which saves money.
