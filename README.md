@@ -11,13 +11,7 @@ I'm using this as a framework to organize my thoughts, test ideas in my homelab,
 - To eventually help others think like me -- curious, chaotic, and tring to find signal in all the noise.
 
 ## What's Inside
-
-Each folder or markdownfile in this repo corresponds to a section from the roadmap. Inside you'll find:
-
-- **Topic Summaries** in my own words
-- **Hands-on lab reflections** (When I build or test something)
-- **Thoughts on real-world application**
-- **Write-ups** on anything that sparks a deeper idea
+Think of this as a technical scriptorium: sourced teachings linked at the top, followed by paraphrased nots, direct quotes, or commentary. I add my voice only when I've lived the lesson -- otherwise, I just keep the signal clear. All the credit goes the orginators.
 
 ## Live Progess (WIP)
 - [X] Fundamental IT Skills
