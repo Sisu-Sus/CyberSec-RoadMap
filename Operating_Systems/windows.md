@@ -18,6 +18,8 @@ Pluton enhances the protection of Windows 11 by provding extra protection for cr
 
 Ultimately, Pluton establishes the security backbone for Copilot + PC, thanks to tight partnerships with our silicon collaborators and OEMs. The Qualcomm Snapdragon X, AMD Ryzen AI, and Intel Core Ultra 200V mobile processors (codenamed Lunar Lake ) processor platforms all incorporate Pluton as their security system.
 
+### Virtualization-Based Security (VBS)
+![Microsoft VBS Visualization](images/micro_vbs.png)
 ### Next Step
 - []()
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
