@@ -7,7 +7,7 @@ The Microsoft Office Suite is a collection of productivity software developed by
 [https://www.microsoft.com/en-gb/microsoft-365/products-apps-services](https://www.microsoft.com/en-gb/microsoft-365/products-apps-services)
 
 ### Currently Available Apps and Services (2025)
-  - Teams ![Teams Logo](images/teams.avif)
+  - Teams ![Teams Logo](../../../images/teams.avif)
 
 ### Next Step
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
