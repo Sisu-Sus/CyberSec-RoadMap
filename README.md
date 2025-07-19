@@ -20,7 +20,6 @@ Each folder or markdownfile in this repo corresponds to a section from the roadm
 - **Write-ups** on anything that sparks a deeper idea
 
 ## Live Progess (WIP)
-
 -[X] Fundamental IT Skills
 -[ ] Operating Systems
 -[ ] Networking Knowledge
