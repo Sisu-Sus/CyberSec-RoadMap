@@ -19,7 +19,11 @@ Pluton enhances the protection of Windows 11 by provding extra protection for cr
 Ultimately, Pluton establishes the security backbone for Copilot + PC, thanks to tight partnerships with our silicon collaborators and OEMs. The Qualcomm Snapdragon X, AMD Ryzen AI, and Intel Core Ultra 200V mobile processors (codenamed Lunar Lake ) processor platforms all incorporate Pluton as their security system.
 
 ### Virtualization-Based Security (VBS)
+VBS, also known as core isolation, is a critical building block in a secure system. VBS uses hardware vitualization features to host a secure kernel seperated from the operating system. This means that even if the OS is compromised, the secure kernel is still protected. The isolated VBS environment protects processes, such as security solutions and credential managers, from other processes running in memory. VBS implements Virtual Trust Level 1 (VTL1), which has higher privilege than the Virtual Trust Level 0 (VTL0) implemented in the main kernel. Subce More privileged trust levels can enforce their own memory protections, higher VTLs can effectively protect areas of memory from lower VTLs. In practice, this allows a lower VTL to protect isolated memory regions by securing them with a higher VTL. For example, VTL0 could store a secret in VTL1, at which point only VTL1 could access it. Even if VTL0 is compromised, the secret would be safe.
+
+### Hypervisor-protected code integrity (HVCI)
+HVCI, also memory integrity uses VBS to run Kernel Mode Code Integrity (KMCI) inside the secure VBS environment instead of the main Windows kernel. This helps prevent attacks that attemp to modify kernel-mode code for things like drivers. The KMCI checks that all kernel code is properly signed and hasn't been tampered with before it's allowed to run. HVCI ensures that only validated code can be executed in the kernel mode. The hypervisor uses processor virtualization extensions to enfore memory protections that prevent kernel-mode software from executing code that hasn't been first validated by the code integrity subsytem. HVCI protects against common attacks like WannaCry that rely on the ability to inject maliscious code into the kernel. HVCI can prevent injection of maliscious kernel-mode code even when drivers and other kernel-mode software have bugs. 
 ![Microsoft VBS Visualization](images/micro_vbs.png)
 ### Next Step
-- []()
+- [Linux]()
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
