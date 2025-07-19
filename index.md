@@ -29,3 +29,4 @@
 - [Installing Software And Applications](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Installing_Software_And_Applications.md)
 - [Performing CRUD on Files](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Performing_CRUD_On_Files.md)
 - [Troubleshooting](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Troubleshooting.md)
+- [Common Commands](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Common_Commands.md) 
