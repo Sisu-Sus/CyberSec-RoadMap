@@ -11,4 +11,5 @@ Google Workspace is a cloud-based productivity and collaboration platform by Goo
 LibreOffice is a free, open-source productivity suite developed by The Document Foundation. It offers alternatives to Microsft Office applications, including Write (word processing), Calc(spreadsheets), Impress(presentations), Draw(grpahics), Base(databases), and Math(formula editing). LibreOffice supports a wide range of file formats, including Microsoft Office Formats, and emphasizes adherence to open standards. It's available for multiple operating systems, doesn't require a subscription, and allows users to customize or extend its functionality. While it may lack some advanced features of commercial alternative, LibreOffice is popular in educational settings, government agencies, and among users seeking cost-effective, privacy focused office suite solution.
 
 ### Next Step
+- [MS Office Suite](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Understanding_Basics_of_Popular_Suites/MS_Office_Suite.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
