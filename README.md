@@ -44,8 +44,7 @@ Where I dig into entropy, detection theory, modulation, and behavioral control s
 
 This will be updated steadily as I go. It's imperfect on purpose. If you found this useful or want to collaborate, feel free to reach out.
 
--
-Brant
+- Brant
 
 
 ### Start Here
