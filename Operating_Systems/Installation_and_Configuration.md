@@ -21,9 +21,7 @@ While software configurations will vary depending on the specific application or
 
 - Least Privilege: Configure user accounts and permissions with the principle of least privilege. Limit user access to the minimal level necessary to accomplish their tasks, reducing the potential attack surface.
 
-- Password Policies: Implement strong password policies, including complexity requirements, and minimum password length. Theres a debate on password expiration and I personally believe constantly changing your password is a security risk. To try and manage an entire wallet of passwords and changing them on a timer is a cron job you expect normal people to do? Get one good password per account, leave it unless you suspect a breach. Don't reuse passwords.
-
-I would also like to add that long arbitrary phrases ( brown - charlie - fox - tango ) is better than complexixty  ( h4$<dXk%675K ) computationally. Meaning its more difficult to bruteforce a long passphrase due to the length.
+- Password Policies: Implement strong password policies, including complexity requirements, and minimum password length. Theres a debate on password expiration and I personally believe constantly changing your password is a security risk. To try and manage an entire wallet of passwords and changing them on a timer is a cron job you expect normal people to do? Get one good password per account, leave it unless you suspect a breach. Don't reuse passwords. I would also like to add that long arbitrary phrases ( brown - charlie - fox - tango ) is better than complexixty  ( h4$<dXk%675K ) computationally. Meaning its more difficult to bruteforce a long passphrase due to the length.
 
 - Encryption: Enable data encryption to protect sensitive information from unauthorized access. This can include both storage encryption and encryption of data in transit.
 
