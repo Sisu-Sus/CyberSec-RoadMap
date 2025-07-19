@@ -25,7 +25,7 @@ One resource I can personally recommend and used is [https://automatetheboringst
 
 - Troubleshooting: Working on troublehshooting skills and using different resources, vastly improves your workflow. If you have to use ChatGPT to solve the same issue 5 times, you are not being effective.
 
-- Time Management: Maximizing your output with timemanagement is an effective skill to master. Being able to focus effectively and use your time wisely will greatly help you not feel overwhelmed, especially in the beginning. Try to make small goals. I would start with maybe one page a day, or one topic a day, or one langauge a day -- **Whatever your rate is, it's fast enough. **
+- Time Management: Maximizing your output with time management is an effective skill to master. Being able to focus effectively and use your time wisely will greatly help you not feel overwhelmed, especially in the beginning. Try to make small goals. I would start with maybe one page a day, or one topic a day, or one langauge a day -- **Whatever your rate is, it's fast enough. **
 
 ### Next Step
 - [Computer Hardware Components](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Computer_Hardware_Components.md)
