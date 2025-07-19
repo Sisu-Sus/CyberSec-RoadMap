@@ -25,5 +25,5 @@ VBS, also known as core isolation, is a critical building block in a secure syst
 HVCI, also memory integrity uses VBS to run Kernel Mode Code Integrity (KMCI) inside the secure VBS environment instead of the main Windows kernel. This helps prevent attacks that attemp to modify kernel-mode code for things like drivers. The KMCI checks that all kernel code is properly signed and hasn't been tampered with before it's allowed to run. HVCI ensures that only validated code can be executed in the kernel mode. The hypervisor uses processor virtualization extensions to enfore memory protections that prevent kernel-mode software from executing code that hasn't been first validated by the code integrity subsytem. HVCI protects against common attacks like WannaCry that rely on the ability to inject maliscious code into the kernel. HVCI can prevent injection of maliscious kernel-mode code even when drivers and other kernel-mode software have bugs. 
 ![Microsoft VBS Visualization](images/micro_vbs.png)
 ### Next Step
-- [Linux]()
+- [Linux](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/linux.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
