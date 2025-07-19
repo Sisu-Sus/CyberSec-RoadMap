@@ -21,7 +21,7 @@ Each folder or markdownfile in this repo corresponds to a section from the roadm
 
 ## Live Progess (WIP)
 
--[ ] Fundamental IT Skills
+-[X] Fundamental IT Skills
 -[ ] Operating Systems
 -[ ] Networking Knowledge
 -[ ] Security Skills and Knowledge
