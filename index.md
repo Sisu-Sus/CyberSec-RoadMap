@@ -24,4 +24,5 @@
 - [MacOS](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/macos.md)
 - [Installation and Configuration](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Installation_and_Configuration.md)
 - [Different Versions and Differences](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Different_Versions_and_Differences.md)
+- [Understanding Permissions](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Understand_Permissions.md)
 - [Navigating Using GUI and CLI](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Navigating_using_GUI_and_CLI.md)
