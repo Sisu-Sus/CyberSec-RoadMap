@@ -27,7 +27,7 @@ While software configurations will vary depending on the specific application or
 
 - Firewalls and Network Security: Configure firewalls and other network security measures to limit the attack surface and restrict unauthorize access to your systems.
 
-- Logging and Auditing: Configure logging and auditing to capture relevant security events and allow for analysis in the event of a breah or security incident.
+- Logging and Auditing: Configure logging and auditing to capture relevant security events and allow for analysis in the event of a breach or security incident.
 
 - Disable Unnecessary Services: Disable any unused or unnecessary services on your sytems. Unnecessary services can contribute to an increased attack surface and potential vulnerabilities. It's a good rule of thumb to assume the applications on your computer could also be used against you as well, so keep that in mind when deciding what you want/need on your PC at all times. Its really convenient to jump into an environment that has a scripting set up ready to go for me. ;)
  
