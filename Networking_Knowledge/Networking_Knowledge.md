@@ -20,5 +20,5 @@ This knowledge is essential for designing, implementing, and maintaining effecti
 
 
 ### Next Step
-- [Understanding The OSI Model]()
+- [Understanding The OSI Model](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Understand_The_OSI_Model.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
