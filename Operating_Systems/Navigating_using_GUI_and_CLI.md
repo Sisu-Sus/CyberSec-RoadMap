@@ -22,7 +22,7 @@ Advantages of CLI:
   - Provides more control and advanced features for experienced users
 
 Disadvantages of CLI:
-  - Git gud nerd ( It was hard for me at first due to steep learning curve )
+  - **High initial learning curve** -- Git gud nerd ( Honestly? It was hard for me at first, but 100% worth it. )
   - Requires memorization or reference material for commands and syntax. ( Practice, if you think you can automate something spend the time to do it. That small project will literally blast your XP levels in the field)
 
 By understanding how to navigate and use both GUI and CLI, you will be better equipped to manage and secure computer systems and network devices, as well as perform various cyber security tasks that may require a combination of these interfaces. It is essential to be familiar with both methods, as some tasks may require the precision and control offer by CLI, while others may be more efficiently performed using GUI.
