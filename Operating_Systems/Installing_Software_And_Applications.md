@@ -1,7 +1,7 @@
 # Installing Software And Applications
 
 ## Roadmap.sh Summary:
-In the realm of cybersecurity, installing apps safely and securely is vital to protect your devices and personal information. In this guide, we'll cover some essential steps to follow when install apps on your devices.
+In the realm of cybersecurity, installing apps safely and securely is vital to protect your devices and personal information. In this guide, we'll cover some essential steps to follow when installing apps on your devices.
 
 ### Choose Trusted Sources
 To ensure the safety of your device, always choose apps from trusted source, such as official app stores (e.g, Google Play Store/Apple's app store) These app stores have strict guidelines and often review apps for malicious content before making them available for download. 
@@ -12,7 +12,7 @@ Before installing an app, it is essential to research the app and its developer 
 ### Check App Permissions
 Before installing an app, always review the permissions requested. Be aware of any unusual permissions that do not correspond to your contacts, GPS, or microphone, and there isn't a reasonable explanation for why it needs this information, it could be a potential security risk.
 
-### Keep Your Device And Apps Updates
+### Keep Your Device And Apps Updated
 To maintain your device's security, always install updates as soon as they become available. This applies not only to the apps but also to the operating system of your device. Updates often include security patches that fix known vulnerabilities, so it is essential to keep everything up to date.
 
 ### Install A Security App
