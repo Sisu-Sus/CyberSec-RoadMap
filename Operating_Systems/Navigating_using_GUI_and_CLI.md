@@ -27,5 +27,5 @@ Disadvantages of CLI:
 
 By understanding how to navigate and use both GUI and CLI, you will be better equipped to manage and secure computer systems and network devices, as well as perform various cyber security tasks that may require a combination of these interfaces. It is essential to be familiar with both methods, as some tasks may require the precision and control offer by CLI, while others may be more efficiently performed using GUI.
 ## Next Step
-- [Understanding Permissions]
+- [Understanding Permissions](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Understand_Permissions.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
