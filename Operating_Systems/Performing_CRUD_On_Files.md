@@ -7,7 +7,7 @@ Performing CREATE, READ, UPDATE, DELETE (CRUD) operations on files involves crea
 [https://www.crowdstrike.com/en-us/cybersecurity-101/observability/crud/](https://www.crowdstrike.com/en-us/cybersecurity-101/observability/crud/)
 
 ### Explaining CRUD
-As mentioned, CRUD operations are used in persisten storage applications, meaning these applications will keep their data even after the system powers down. These are different from operations on data stored in volatile storage, like RAM or cache files.
+As mentioned, CRUD operations are used in persistent storage applications, meaning these applications will keep their data even after the system powers down. These are different from operations on data stored in volatile storage, like RAM or cache files.
 
 CRUD is extensively used in database applications. This includes Relational Database Management Systems (RDBMS) like Oracle, MySQL, and PostgreSQL. It also includes NoSQL databases like MongoDB, Apache Cassandra, and AWS DynamoDB.
 
