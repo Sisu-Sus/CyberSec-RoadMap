@@ -17,7 +17,7 @@ Effective troubleshooting requires analytical thinking, deep knowledge of the sy
 - Analyzing logs
 - Isolating variables
 
-The goal is to efficiently pinpoint the root cause of a problem and implement an appropriate solution, minimizing downtime and restoring normal operations as quickly as possbile.
+The goal is to efficiently pinpoint the root cause of a problem and implement an appropriate solution, minimizing downtime and restoring normal operations as quickly as possible.
 
 
 ### Next Step
