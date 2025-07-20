@@ -1,6 +1,6 @@
 # Installing Software And Applications
 
-## Roadmap.sh Sumamry:
+## Roadmap.sh Summary:
 In the realm of cybersecurity, installing apps safely and securely is vital to protect your devices and personal information. In this guide, we'll cover some essential steps to follow when install apps on your devices.
 
 ### Choose Trusted Sources
