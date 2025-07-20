@@ -18,7 +18,7 @@ Networking protocols are essential for facilitating communication between device
 
    - A Record: An A record is used to map an FQDN to an IPv4 address
 
-   - AAAAA Record: This record maps an FQDN to an IPv6 address
+   - AAAA Record: This record maps an FQDN to an IPv6 address
   
    - Canonical Name Record: A CNAME record works as an alias and maps one domain name to another.
   
