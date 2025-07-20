@@ -47,7 +47,77 @@ Networking protocols are essential for facilitating communication between device
 4. Hypertext Transfer Protocol
    HTTP operates on a client-server model and is the primary method by which web browsers and servers communicate to share information over the internet. While its main purpose is to transfer webpages and provide other resources during web browsing, it is also able to transfer data, facilitating file sharing.
 
-   Another form of HTTP is HTTP Secure. HTTPS can encrypt a user's HTTP requests and webpages, providing greated network security and preventing common cybersecurity threats.
+   Another form of HTTP is HTTP Secure. HTTPS can encrypt a user's HTTP requests and webpages, providing greateR network security and preventing common cybersecurity threats, such as Man In The Middle (MITM) attacks.
+
+   HTTPS has become the new standard for web browsing.
+
+5. Simple Mail Transfer Protocol
+   SMTP--The most widely used email protocol--is part of the TCP/IP suite and control how email clients send users' email messages. Email servers use SMTP to send email messages from the client to the email server to the reveiving email server. However, SMTP doesn't control how email clients receive messages -- just how clients send messages. Essentially, it's just a mail delivery protocol and not used for retrieval of messages.
+
+   That said, SMTP requires other protocols to ensure email messages are sent and received properly. It can work with Post Office Protocol 3 or Internet Message Access Protocol, bot of which control how an email server receives email messages.
+
+6. Simple Network Management Protocol
+   SNMP is a network management protocol that helps network admins manage and monitor devices, such as routers, switches, printers and firewalls. It gathers device information to monitor network performance and health. Network administrators often use SNMP to detect and trouble shoot network issues.
+
+   SNMP uses a manager-agent model and the following components:
+   - SNMP manager: This is the central system that communicates with the agents and requests or updates information.
+   - SNMP agent: This is a software component installed on devices such as routers and switches and sends information to the manager
+   - Management information base: The MIB acts as a database and contains device information.
+  
+   Here is how SNMP works:
+   1. Manager Request: The SNMP manager sends a request using the SNMP protocol to an SNMP agent on a device. The request includes information, such as CPU use and interface status.
+  
+   2. Agent Response: The SNMP agent retrieves the requested information from the MIB and sends it back to the manager in an SNMP response.
+  
+   3. Manager Action: The manager is now able to display the information, log it or use it to trigger an action. For example, it can send an alert or change a configuration
+  
+7. Secure Shell
+   The SSH protocol provides a way to securely connect to and send commands to a device or an insecure network, such as the internet. It uses cryptography for authentication and establishes an encrypted digital tunnel between devices, protecting communication from eavesdropping and tampering.
+
+8. Telnet
+   Telnet is designed for remote connectivity. It establishes connections between a remote endpoint and a host machine to enable a remote session. Telnet prompts the user at the remote endpoint to log on. Once the user is authenticated, Telnet gives the endpoint access to network resources and data at the host computer.
+
+   **Telnet has existed since the 1960s and was the first draft of the modern internet. However, Telnet lacks sophisticated security protection as it transmits data in plaintext, including usernames and passwords.**
+
+9. Transmission Control Protocol
+    TCP is a connection-oriented transport layer protocol that offers reliable delivery throught packet sequencing, retransmission of lost packets and flow control.
+
+   It arranges packets in order after IP has delivered them. TCP numbers individual packets because IP can send    packets to their destinations through different routes and get the packets out of order. TCP checks and reassembles the packets at the destination before delivering them to the application. IP's job is complete once the packet reaches the destination host; TCP's job begins at this point. It takes over to ensure reliable and in-order delivery to the application.
+
+   TCP also detects errors in the sending process, including if any packets are missing based on TCP's numbered system, and it requires IP to retransmit missing packets. Through this process, the TCP/IP suite controls communication across the internet.
+
+10. User Datagram Protocol
+    UDP is an alternative to TCP and also works with IP to transmit time-sensitive data. UDP enables low-latency data transmissions between internet applications, making it ideal for real-time applications where low latency is important, but some data loss is acceptable, such as with VoIP, audio or video streaming, and onling gaming.
+
+    UDP solely transmits packets and doesn't offer packet sequencing, organizing or retransmission. TCP, on the other hand, transmits, organizes and ensures the packets arrive. While UDP is a lightweight protocol and works faster than TCP, it's also less reliable.
+
+11. Address Resolution Protocol
+    ARP maps IP addresses to physical MAC address of devices and vice versa within a LAN so devices can communicate with one another. ARP is necessary because IP and MAC addresses are different lengths and operate on different layers of the OSI model.
+
+    These addresses must be mapped for proper network communication and data transfer among connected devices. ARP isn't required every time devices attemp to communicate because the LAN's hsot system maps and stores the associations in its ARP cache. As a result, the ARP resolution process is mained used when new devices join the network.
+
+12. Internet Control Message Protocol
+    ICMP is a supporting protocol on the internet layer of the TCP/IP model. It's mainly used for network diagnostics, troubleshooting, error reporting and some limited control functions between network devices. It helps identify network connectivity issues and manage the flow of data packets. However, it doesn't transfer data, such as the content of a webpage or an email.
+
+    ping and traceroute commands both use ICMP to test connectivity and trace packet routes. Common ICMP messages include the following:
+
+    - Echo request and Echo Reply
+   
+    - Destination Unreachable
+   
+    - Time Exceeded
+   
+    - Redirected Message
+   
+13. Internet Protocol
+    IP functions similar to a postal service. When users send and receive data from their devices, the data gets spliced into packets. Packets are like letters with two IP addresses: one for the sender and one for the recipient,
+
+    After the packet leaves the sender, it goes to a gateway or router, similar to a post office, which guides it towards its destination. Packets continue to travel through several gateways until they reach their destinations.
+
+    IP is commonly paired with TCP to ensure reliable data delivery. IP sends packets to their destinations as they arrive, while TCP makes sure they are in the correct sequence since IP is connectionless and can deliver them out of order if they take different routes across the network.
+
+14. Border Gateway Protocol
+    
 
 ### Next Steps
 - [Common Ports and Their Uses](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Common_Ports_And_Their_Uses.md)
