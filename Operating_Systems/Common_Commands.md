@@ -25,5 +25,5 @@ Common OS commands are essential for interacting with a system's shell or comman
 These commands form the foundation of interacting with an managing an OS via the command line, providing greater control over system operations compared to graphical interfaces,
 
 ### Next Step
-- [Networking Knowledge]
+- [Networking Knowledge](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Networking_Knowledge.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
