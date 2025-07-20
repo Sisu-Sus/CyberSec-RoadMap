@@ -36,7 +36,7 @@ Where I dig into entropy, detection theory, modulation, and behavioral control s
 ---
 ### Notes
 
-This will be updated steadily as I go. It's imperfect on purpose. If you found this useful or want to collaborate, feel free to reach out.
+This will be updated steadily as I go. It's imperfect on purpose. If you found this useful or want to collaborate, feel free to reach out, however, please give all of the love to [roadmap.sh](https://roadmap.sh) and the resources mentioned. They are the true heroes. 
 
 - Brant
 
