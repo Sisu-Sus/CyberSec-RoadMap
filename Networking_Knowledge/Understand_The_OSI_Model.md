@@ -1,4 +1,4 @@
-# Understand The ISO Model
+# Understand The OSI Model
 
 ## Roadmap.sh Summary:
 The Open Systems Interconnection(OSI) Model is a conceptual framework that descibes how data communication occurs between devices in a network. It consists of seven layers, each with specific fucntions:
