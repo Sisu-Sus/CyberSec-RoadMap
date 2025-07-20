@@ -34,4 +34,5 @@
 ### Networking Knowledge
 - [Networking Knowledge](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Networking_Knowledge.md)
 - [Understand The OSI Model](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Understand_The_OSI_Model.md)
-- 
+- [Common Protocols And Their Uses](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Common_Protocols_And_Their_Uses.md)
+- [Common Ports And Their Uses]()
