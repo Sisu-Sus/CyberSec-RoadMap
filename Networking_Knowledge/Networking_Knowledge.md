@@ -13,7 +13,7 @@ Networking knowledge encompasses understanding the principles, technologies, and
 
 - Network Security: Awareness of security measures like VPNs, firewalls, IDS/IPS, and encryption to protect data and prevent unauthorized access.
 
-- Troubleshooting: Skills in diagnosing and resolving network issues using tools like pring traceroute, and network analyzers.
+- Troubleshooting: Skills in diagnosing and resolving network issues using tools like ping, traceroute, and network analyzers.
 
 This knowledge is essential for designing, implementing, and maintaining effective and secure network infastructures.
 
