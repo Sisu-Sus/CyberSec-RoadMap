@@ -15,7 +15,7 @@ Think of this as a technical scriptorium: sourced teachings linked at the top, f
 
 ## Live Progess (WIP)
 - [X] Fundamental IT Skills
-- [ ] Operating Systems
+- [X] Operating Systems
 - [ ] Networking Knowledge
 - [ ] Security Skills and Knowledge
 - [ ] Cloud Skills and Knowledge
