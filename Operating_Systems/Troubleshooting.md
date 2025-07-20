@@ -1,7 +1,16 @@
 # Troubleshooting
 
 ## Roadmap.sh Summary:
-Troubleshooting is a systematic approach to problem-solving used to identify, diagnose, and resolve issues in complex systems, particularly in technology and engineering fields. It involves a step-by-step process of gathering information, identifying symptoms, formulating hypotheses, testing potential solutions, and implementing fixes. Effective troubleshooting requires analytical thinking, deep knowledge of the system in question, and often the use of diagnostic tools. In IT and network environments, common troubleshooting steps include:
+Troubleshooting is a systematic approach to problem-solving used to identify, diagnose, and resolve issues in complex systems, particularly in technology and engineering fields.
+
+It involves a step-by-step process of:
+- Gathering information
+- Identifying symptoms
+- Formulating hypotheses 
+- Testing potential solutions
+- Implementing fixes
+
+Effective troubleshooting requires analytical thinking, deep knowledge of the system in question, and often the use of diagnostic tools. In IT and network environments, common troubleshooting steps include:
 
 - Checking physical connections
 - Verifying configurations
