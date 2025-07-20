@@ -31,4 +31,5 @@
 - [Troubleshooting](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Troubleshooting.md)
 - [Common Commands](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Common_Commands.md) 
 - [Networking Knowledge](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Networking_Knowledge.md)
+- [Understand The OSI Model](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Understand_The_OSI_Model.md)
 - 
