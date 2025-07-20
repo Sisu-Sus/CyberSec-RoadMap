@@ -1,7 +1,7 @@
 # Understand The OSI Model
 
 ## Roadmap.sh Summary:
-The Open Systems Interconnection(OSI) Model is a conceptual framework that descibes how data communication occurs between devices in a network. It consists of seven layers, each with specific fucntions:
+The Open Systems Interconnection(OSI) Model is a conceptual framework that describes how data communication occurs between devices in a network. It consists of seven layers, each with specific fucntions:
 
 1. Physical - Deals with physical transmission media
 2. Data Link - Handles error-free transfer between adjacent nodes
@@ -15,12 +15,12 @@ The Open Systems Interconnection(OSI) Model is a conceptual framework that desci
 [https://aws.amazon.com/what-is/osi-model/](https://aws.amazon.com/what-is/osi-model/)
 
 ### Physical Layer
-The physical layer refers to the physical communication mediu, and the technologies to transmit data across that medium. At its core, data communication is the transfer of digital and electronic signals through various physical channels like fiber-optic cables, copper cabling, and air. The physical layer includes standards for technologies and metrics closely related with channels, such as Bluetooth, NFC, and data transmission
+The physical layer refers to the physical communication medium, and the technologies to transmit data across that medium. At its core, data communication is the transfer of digital and electronic signals through various physical channels like fiber-optic cables, copper cabling, and air. The physical layer includes standards for technologies and metrics closely related with channels, such as Bluetooth, NFC, and data transmission
 
 ### Data Link Layer
 The data link layer refers to the technologies used to connect two machines across a network where the physical layer already exists. It manages data frames, which are digital signals encapsulated into data packets. Flow control and error control of data are often key focuses of the data link layer. Ethernet is an example of a standard at this level. The data link layer is often split into two sub-layers: the Media Access Control (MAC) layer and Logical Link Control (LLC) layer
 
-### Network Later
+### Network Layer
 The network layer is concerned with concepts such as routing, forwarding, and addressing across a dispersed network or multiple connected networks of nodes or machines. The network layer may also manage flow control. Across the internet, the Internet Protocol v4 (IPv4) and IPv6 are used as the main network layer protocols.
 
 ### Transport Layer
