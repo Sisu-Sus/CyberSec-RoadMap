@@ -3,7 +3,7 @@
 The Microsoft Office suite is a pervasive platform, comprising applications like Word, Excel, PowerPoint, Access, and Outlook. Its widespread adoption makes it a frequent target for malicious actors. This document provides a technical overview of security considerations surrounding the Office suite, focusing on potential vulnerabilities and attack vectors relevant to cybersecurity professionals. This analysis assumes a baseline understanding of networking protocols (TCP/IP), operating system fundamentals, and common attack methodologies.
 
 ### Core Applications & Associated Risks
-**1. Microsoft Word (.doc/.docx)**    ![Microsft Word Logo](images/word.avif)
+![Microsft Word Logo](images/word.avif) - **Microsoft Word (.doc/.docx)** 
 
 - **File Format Vulnerabilities:** Older .doc formats are susceptible to macro-based attacks and buffer overflow vulnerabilities due to their binary nature and lack of robust security features. .docx (Office Open XML) is generally considered more secure, but still presents risks.
 Macro Attacks (Executable Content): Macros embedded within documents can execute arbitrary code upon opening. This is a primary attack vector for malware distribution. VBA (Visual Basic for Applications) macros are particularly problematic.
