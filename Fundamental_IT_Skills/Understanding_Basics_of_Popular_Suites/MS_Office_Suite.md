@@ -64,7 +64,7 @@ Attack Vector: Compromised spreadsheets distributed via email or malicious websi
 
 - **User Awareness Training:** Educating users about phishing attacks and safe computing practices is essential for preventing successful attacks.
   
-### Attack Vectors & Mitigation Summary Table:
+Attack Vectors & Mitigation Summary Table:
 Attack Vector	Description	Mitigation Strategies
 Macro Attacks	Malicious VBA code executed upon document opening.	Disable macros, digital signatures, antivirus scanning, user education.
 Formula Injection (Excel)	Malicious formulas manipulate data or execute commands.	Input validation, formula auditing, macro disabling.
@@ -73,18 +73,11 @@ OLE Exploits	Vulnerabilities in embedded objects lead to code execution.	Disable
 Equation Editor Exploits	Crafted equations trigger arbitrary code execution.	Patching, restricting equation editor access.
 Conclusion
 The Microsoft Office suite presents a complex and evolving security landscape. A layered approach combining technical controls (patch management, application whitelisting) with user awareness training is essential for mitigating the risks associated with this widely used platform. Continuous monitoring and proactive threat hunting are also crucial for detecting and responding to potential attacks.
-### Resource
-[https://www.microsoft.com/en-gb/microsoft-365/products-apps-services](https://www.microsoft.com/en-gb/microsoft-365/products-apps-services)
 
-### Currently Available Apps and Services (2025)
-  - Teams ![Teams Logo](images/teams.avif)
-  - Word ![Word Logo](images/word.avif)
-  - Outlook ![Outlook logo](images/outlook.avif)
-  - OneNote ![OneNote logo](images/onenote.avif)
-  - Defender ![Defender Logo](images/defender.avif)
-  - OneDrive ![OneDrive Logo](images/onedrive.avif)
-  - Designer ![Designer Logo](images/designer.avif)
-  - ClipChamp ![ClipChamp Logo](images/clipchamp.avif)
+
 ### Next Step
 - [iCloud](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Understanding_Basics_of_Popular_Suites/iCloud.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
+
+### Resource
+[https://www.microsoft.com/en-gb/microsoft-365/products-apps-services](https://www.microsoft.com/en-gb/microsoft-365/products-apps-services)
