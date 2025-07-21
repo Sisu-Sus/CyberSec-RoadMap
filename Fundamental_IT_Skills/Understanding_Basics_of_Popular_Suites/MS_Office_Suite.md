@@ -72,7 +72,7 @@ Attack Vector: Compromised spreadsheets distributed via email or malicious websi
 | Phishing (Outlook) |	Deceptive emails trick users into revealing credentials or opening malicious attachments.	User training, email filtering, multi-factor authentication.| 
 | OLE Exploits	| Vulnerabilities in embedded objects lead to code execution.	Disable OLE, patch vulnerabilities.|
 | Equation Editor Exploits	| Crafted equations trigger arbitrary code execution.	Patching, restricting equation editor access.|
-Conclusion
+
 The Microsoft Office suite presents a complex and evolving security landscape. A layered approach combining technical controls (patch management, application whitelisting) with user awareness training is essential for mitigating the risks associated with this widely used platform. Continuous monitoring and proactive threat hunting are also crucial for detecting and responding to potential attacks.
 
 
