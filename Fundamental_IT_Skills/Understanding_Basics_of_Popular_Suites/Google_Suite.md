@@ -13,7 +13,7 @@ Google Workspace is a suite of cloud-based productivity and collaboration applic
   - **Google Drive:** Utilizes distributed object storage systems for file storage and content delivery networks (CDNs) for efficient access.
   - **Google Docs/Sheets/Slides:** Employs real-time collaborative editing engines built on web technologies, often leveraging WebSockets or similar protocols for low-latency updates.
  
-- **APIs & Integrations:**Google Workspace provides a robust set of APIs (Application Programming Interfaces) allowing integration with third-party applications and custom development. These APIs are critical for automation but also represent potential attack surfaces. Examples include:
+- **APIs & Integrations:** Google Workspace provides a robust set of APIs (Application Programming Interfaces) allowing integration with third-party applications and custom development. These APIs are critical for automation but also represent potential attack surfaces. Examples include:
   - **Google Apps Script:** A cloud-based scripting language enabling users to automate tasks and extend Google Workspace functionality.
   - **OAuth 2.0:** Used for delegated access, allowing third-party applications to access user data with permission.
 
