@@ -12,5 +12,5 @@ In contrast, a **Storage Area Network (SAN)** provides block-level access to sto
 [https://www.backblaze.com/blog/whats-the-diff-nas-vs-san/](https://www.backblaze.com/blog/whats-the-diff-nas-vs-san/)
 ![SAN vs NAS stats](images/NAS_vs_SAN.png)
 ### Next step
-- []()
+- [Basics Of Subnets](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/Basics_Of_Subnets.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
