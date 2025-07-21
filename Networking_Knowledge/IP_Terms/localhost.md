@@ -6,5 +6,5 @@ The localhost hostname serves as a standardized identifier for accessing network
 The utilization of localhost enables developers and administrators to validate network service funtionality and application behavior without reliance on external network infrastructure or public IP addresses. The isolation is crucial for ensuring stability and security during development cycles and minimizing potential exposure to external threats. Furthermore, the loopback interface provides a preictable and consisten testing environment, indpendent of network topology or connectivity issues. The localhost configuration is typically established automatically by operating systems upon initialization.
 
 ### Next Step
-- [loopback]()
+- [loopback](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/loopback.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
