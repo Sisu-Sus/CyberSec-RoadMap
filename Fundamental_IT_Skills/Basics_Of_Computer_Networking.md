@@ -49,6 +49,16 @@ This document provides a detailed overview of computer networking principles, es
 **Dynamic Routing:** Routes are learned and updated automatically using routing protocols (e.g., OSPF, BGP).
 
 ### Network Hardware
+**Hubs:** Simple devices that broadcast all incoming data to every connected device – inefficient and insecure. (Largely obsolete)
+
+**Switches:** Forward data only to the intended recipient based on MAC addresses; more efficient than hubs.'
+
+**Routers:** Connect different networks together, forwarding packets based on IP addresses.
+
+**Firewalls:** Act as a barrier between networks, controlling traffic based on predefined rules. Can be hardware or software-based.
+
+**Wireless Access Points (WAPs):** Allow devices to connect wirelessly to a network using Wi-Fi standards (e.g., 802.11a/b/g/n/ac/ax).
+
 
 ### Next Step
 - [Operating Systems](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Operating_Systems.md)
