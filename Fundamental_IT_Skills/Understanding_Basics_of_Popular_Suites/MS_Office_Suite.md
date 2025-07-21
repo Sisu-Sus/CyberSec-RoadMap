@@ -65,6 +65,7 @@ Attack Vector: Compromised spreadsheets distributed via email or malicious websi
 - **User Awareness Training:** Educating users about phishing attacks and safe computing practices is essential for preventing successful attacks.
   
 ### Attack Vector	Description	Mitigation Strategies
+| Attack Vector | Decription |
 |---|---|
 | Macro Attacks |	Malicious VBA code executed upon document opening. Disable macros, digital signatures, antivirus scanning, user education. |
 | Formula Injection (Excel)	| Malicious formulas manipulate data or execute commands.	Input validation, formula auditing, macro disabling. |
