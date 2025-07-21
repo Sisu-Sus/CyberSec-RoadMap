@@ -76,7 +76,9 @@ DHCP Starvation: An attacker exhausts the available IP addresses in a DHCP pool,
 **Wireless Network Attacks:**
   - **Evil Twin:** Setting up a rogue access point with a similar SSID to trick users into connecting.
   - **WEP/WPA/WPA2 Cracking:** Exploiting vulnerabilities in older wireless encryption protocols. (WPA3 is the current standard and offers improved security).
+
 **Man-in-the-Middle (MITM) Attacks:** Intercepting communication between two parties without their knowledge, often facilitated by ARP poisoning or DNS spoofing.
+
 **Denial of Service (DoS/DDoS):** Overwhelming a network or server with traffic to make it unavailable to legitimate users.
 
 ### Next Step
@@ -84,5 +86,5 @@ DHCP Starvation: An attacker exhausts the available IP addresses in a DHCP pool,
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
 
 ### Resource / Study Sources
-[https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html](https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html)
-[CompTIA Network+ Certification Objectives](https://www.comptia.org/certifications/network)
+- [https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html](https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html)
+- [CompTIA Network+ Certification Objectives](https://www.comptia.org/certifications/network)
