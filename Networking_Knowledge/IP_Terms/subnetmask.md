@@ -10,7 +10,7 @@ Subnetting provides several operational advantages including optimized IP addres
 A foundational understanding of subnet mask principles is essential for effective netowrk administration tasks, including IP address allocation, routing configuration, troubleshooting connectivity issues, and implementing robust network security architectures through logical isolation.
 
 ### Next Step
-- [Default Gateway]()
+- [Default Gateway](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/Default_Gateway.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
 ### Resources
 [https://www.spiceworks.com/tech/networking/articles/what-is-subnet-mask/](https://www.spiceworks.com/tech/networking/articles/what-is-subnet-mask/)
