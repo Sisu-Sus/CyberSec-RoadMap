@@ -62,4 +62,4 @@ Ultimately, securing productivity suites requires a layered approach combining t
 based office suites.
 *   Microsoft Security Response Center: [https://msrc.microsoft.com/](https://msrc.microsoft.com/) – For Microsoft Office security advisories and updates.
 *   Google Workspace Admin Help: [https://support.google.com/workspace/?hl=en#topic=7312065](https://support.google.com/workspace/?hl=en#topic=7312065) – For Google Workspace security features and best practices.
-*   LibreOffice Security Advisories: [https://www.libreoffice.org/security/](https://www.libreoffice.org/) - For LibreOffice vulnerability disclosures.
+*   LibreOffice: [https://www.libreoffice.org/security/](https://www.libreoffice.org/) 
