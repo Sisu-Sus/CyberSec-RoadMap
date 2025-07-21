@@ -38,7 +38,6 @@
 - [Common Ports And Their Uses](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Common_Ports_And_Their_Uses.md)
 - [SSL And TLS Basics](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/SSL_And_TLS_Basics.md)
 - [Basics Of NAS And SAN](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Basics_Of_NAS_And_SAN.md)
----
 ### IP Terminology
 - [Basics Of Subnets](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/Basics_Of_Subnets.md)
 - [Public vs Pricate IP Addresses](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/Public_vs_Private_IP_Addresses.md)
@@ -47,6 +46,5 @@
 - [CIDR](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/CIDR.md)
 - [Subnet Mask](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/subnetmask.md)
 - [Default Gateway](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/Default_Gateway.md)
----
 ### Terminology Continued
 - [VLAN](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Terms_Cont/VLAN.md)
