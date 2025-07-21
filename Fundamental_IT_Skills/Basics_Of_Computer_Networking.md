@@ -48,6 +48,8 @@ This document provides a detailed overview of computer networking principles, es
 
 **Dynamic Routing:** Routes are learned and updated automatically using routing protocols (e.g., OSPF, BGP).
 
+### Network Hardware
+
 ### Next Step
 - [Operating Systems](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Operating_Systems.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
