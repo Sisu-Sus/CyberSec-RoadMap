@@ -1,35 +1,64 @@
 # Infared
+### Introduction & Fundamentals
+Infrared (IR) communication represents a short-range wireless data transmission method employing modulated light waves within the infrared portion of the electromagnetic spectrum, typically between approximately 700 nm and 1000 nm. Unlike radio frequency (RF) based systems like Wi-Fi or Bluetooth, IR utilizes line-of-sight (LoS) communication; a direct path between transmitter and receiver is required for reliable data transfer. This characteristic significantly impacts its range and susceptibility to interference.
 
-## Roadmap.sh Summary
+### Key Characteristics:
 
-Infared (IR) is a type of wireless communication technology that utilizes lightwaves in the electromagnetic spectrum to transmit data between devices. Infared connections are widely used in short-range communication, commonly found in devices like remote controls, wireless keyboards and mice, and computer-to-printer communication.
+**Electromagnetic Spectrum Positioning:** The infrared band sits between visible light and microwaves. This placement dictates the technology's behavior – it’s not directly visible but can be detected with specialized equipment.
 
-## Resource 
-[https://nordvpn.com/cybersecurity/glossary/infrared/?srsltid=AfmBOop7r5E41gRA5itc1NmwrS9qpjfiFnW6UKBwVLuu_MifaKdLHoTe](https://nordvpn.com/cybersecurity/glossary/infrared/?srsltid=AfmBOop7r5E41gRA5itc1NmwrS9qpjfiFnW6UKBwVLuu_MifaKdLHoTe)
+**Modulation Techniques:** Data is encoded onto the IR carrier wave through various modulation techniques, including:
+Pulse-Width Modulation (PWM): Varies the width of light pulses to represent binary data (0 or 1). Simple and common in basic remote control applications.
 
-### Infared Misuse
-- Spoofing devices on the same network: Infared smart light bulbs can serve as the ideal solution for hackers to spoof all connected devices on one Wi-Fi network. Then, they can cause data leaks or steal confidential data, such as IP addresses.
+**Phase Shift Keying (PSK):** Changes the phase of the carrier wave to encode data. Offers improved noise immunity compared to PWM.
 
-- Controlling the Infared wave: Once they intercept the connection, they will be able to constantly monitor the data that two devices share and steal data users store on their computers, such as login credentials messages, and emails. Such hacking requires advanced technical knowledge and equipment and is therefore less common than other types of attacks.
+**Frequency Shift Keying (FSK):** Shifts the frequency of the carrier wave. Also provides better noise resilience than PWM.
 
-- Steal IoT data: As many IoT devices utilize infared bulbs, hackers can use them to exploit vulnerabilities and steal sensitive user data.
+**Data Rates:** IR communication typically supports relatively low data rates, ranging from a few kilobits per second (kbps) in older systems to potentially several megabits per second (Mbps) with more advanced protocols like IrDA (see below). This limitation restricts its use cases compared to higher-bandwidth wireless technologies.
 
-- Monitor security cameras: By intercepting infared waves, hackers can access the company's security cameras, which may assist hackers in monitoring the company's actions and entering their security system through the cameras.
+**Line of Sight Requirement:** The most critical constraint is the need for a clear, unobstructed path between the IR transmitter and receiver. Any physical barrier (wall, object) will significantly attenuate or block the signal.
 
-## Resource 
-[https://www.larksuite.com/en_us/topics/cybersecurity-glossary/infrared](https://www.larksuite.com/en_us/topics/cybersecurity-glossary/infrared)
+### Common Protocols & Standards
+While "IR communication" is a general term, specific protocols govern data formatting and transmission procedures. The most notable legacy standard is:
 
-### Purpose of IR in CybSec
-The primary purpose of integrating infared within cybersecurity protocols is to enhance the overall detection and prevention capabilities of an organizations digitial infastructure. By leveraging the unqiue properties of infared radiation, businesses can establish robust defense mechanisms that offer heightened situational awareness and rapid response to potential security incidents. Moreover, the deployment of infared technology serves as a proactive deterrent against sophisticated cyber threats, thereby fortifying the cybersecurity posture of an organization.
+**Infrared Data Association (IrDA):** A now largely obsolete set of standards defining interoperability between IR devices. IrDA specified various physical layers (SIRF, MIPSO) offering different ranges and speeds. While once prevalent in computer peripherals (mice, keyboards, printers), its usage has dramatically declined due to the rise of Bluetooth and Wi-Fi. IrDA's security was minimal; data transmission was generally unencrypted.
 
-### Implications
-- Example 1 -- Implementation of Infared to Detect Intrusions: An examplar instance of infared technologies practicality in cybersecurity is its application in detecting and thwarting unauthorized intrusions into a network. By harnessing the thermal singatures emitted by unauthorized devices attempting to gain access, organizations can promptly identify and neutralize potential breaches before substantial damage ensues.
+### Cybersecurity Implications & Attack Vectors
+The inherent characteristics of IR communication create several potential attack vectors:
 
-- Example 2 -- Leveraging Infared For Anomaly Detection: Another compelling use case of infared technology pertains to anomaly detection within network traffic. By scrutinizing the infared signatures of data packets and transmissions, organizations can swiftly discern anomalous patterns indicative of potential cyber-attacks or malware filtrations, bolstering their ability to preemptively counter such threats.
+**Eavesdropping:** Because IR signals are relatively weak, they can be intercepted with readily available equipment (e.g., a smartphone camera or dedicated IR receiver). While the LoS requirement limits range, an attacker positioned within line-of-sight can potentially capture transmitted data. The lack of encryption in many legacy IrDA implementations makes this captured data easily readable.
 
-- Example 3 -- Utilizing Infared for Network Traffic Analysis: Infared technology presents unparalled opportunities for comprehensive network traffic analysis. By capturing and analyzing thermal footprints within network infastructures, businesses can gain invaluable insights into network utilization patterns and potential security vulnerabilities, enabling them to proactively optimize their cybersecurity protocols.
+**Mitigation:** Encryption is the primary defense against eavesdropping. However, given the low bandwidth and limited processing power of devices often using IR, implementing robust encryption algorithms can be challenging.
+
+**Replay Attacks:** Captured IR commands (e.g., a remote control signal to unlock a door) could be replayed later to gain unauthorized access. This is particularly concerning in systems controlling physical access or critical infrastructure.
+
+**Mitigation:** Implementing sequence numbers or timestamps within the IR transmission protocol can help detect and prevent replay attacks. However, this requires modifications to existing hardware/firmware.
+
+**Jamming:** While difficult due to the LoS requirement, an attacker could potentially disrupt communication by shining a bright light (e.g., laser pointer) directly at the receiver, effectively jamming the signal.
+
+**Mitigation:** Physical security measures and environmental awareness can help mitigate this risk. Signal filtering techniques might also be employed in some applications.
+
+**Man-in-the-Middle (MITM):** In scenarios where multiple IR devices communicate, an attacker could potentially position themselves between the devices to intercept and modify messages. This is less common due to the LoS requirement but remains a theoretical possibility.
+
+**Mitigation:** Authentication mechanisms (if supported by the protocol) can help prevent MITM attacks.
+
+### Modern Relevance & Considerations
+While IR's prevalence has diminished, it still finds use in:
+
+**Remote Controls:** The dominant application remains consumer electronics remote controls.
+Short-Range Data Transfer (NFC Alternative): Some devices utilize IR for very short-range data transfer where NFC is not available or desirable.
+
+**Near Field Communication (NFC) Emulation:** Certain systems use modulated infrared light to emulate NFC signals, providing a low-cost alternative in specific applications.
+Modern security considerations include:
+
+**Legacy System Vulnerabilities:** Many older devices still rely on unencrypted IR communication, presenting significant vulnerabilities if these devices control sensitive functions.
+
+**Integration with IoT Devices:** As IoT expands, the potential for IR to be used as a communication channel increases, requiring careful consideration of security implications.
 
 
 ### Next Step
 - [OS-Independent Troubleshooting](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/OS_Independent_Troubleshooting.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
+
+## Resource 
+- [https://www.larksuite.com/en_us/topics/cybersecurity-glossary/infrared](https://www.larksuite.com/en_us/topics/cybersecurity-glossary/infrared)
+- [https://en.wikipedia.org/wiki/IEEE_802.15.4](https://en.wikipedia.org/wiki/IEEE_802.15.4)
