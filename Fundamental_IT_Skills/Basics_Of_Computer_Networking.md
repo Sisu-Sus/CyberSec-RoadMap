@@ -48,6 +48,9 @@ This document provides a detailed overview of computer networking principles, es
 
 **Dynamic Routing:** Routes are learned and updated automatically using routing protocols (e.g., OSPF, BGP).
 
+-
+
+
 ### Network Hardware
 **Hubs:** Simple devices that broadcast all incoming data to every connected device – inefficient and insecure. (Largely obsolete)
 
