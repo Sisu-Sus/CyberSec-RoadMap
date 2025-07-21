@@ -3,18 +3,18 @@
 The Microsoft Office suite is a pervasive platform, comprising applications like Word, Excel, PowerPoint, Access, and Outlook. Its widespread adoption makes it a frequent target for malicious actors. This document provides a technical overview of security considerations surrounding the Office suite, focusing on potential vulnerabilities and attack vectors relevant to cybersecurity professionals. This analysis assumes a baseline understanding of networking protocols (TCP/IP), operating system fundamentals, and common attack methodologies.
 
 ### Core Applications & Associated Risks
-**1. Microsoft Word (.doc/.docx)**![Microsft Word Logo](images/word.avif)
+**1. Microsoft Word (.doc/.docx)**    ![Microsft Word Logo](images/word.avif)
 
-- File Format Vulnerabilities: Older .doc formats are susceptible to macro-based attacks and buffer overflow vulnerabilities due to their binary nature and lack of robust security features. .docx (Office Open XML) is generally considered more secure, but still presents risks.
+- **File Format Vulnerabilities:** Older .doc formats are susceptible to macro-based attacks and buffer overflow vulnerabilities due to their binary nature and lack of robust security features. .docx (Office Open XML) is generally considered more secure, but still presents risks.
 Macro Attacks (Executable Content): Macros embedded within documents can execute arbitrary code upon opening. This is a primary attack vector for malware distribution. VBA (Visual Basic for Applications) macros are particularly problematic.
 
-- Mitigation: Macro security settings (disabling or prompting), digital signatures, and antivirus scanning.
+- **Mitigation:** Macro security settings (disabling or prompting), digital signatures, and antivirus scanning.
 Attack Vector: Spear phishing campaigns delivering malicious documents with enticing subject lines to trick users into enabling macros.
 
-- Object Linking and Embedding (OLE) Exploits: OLE allows embedding external objects within Word documents. Vulnerabilities in these embedded objects can be exploited for code execution.
+- **Object Linking and Embedding (OLE) Exploits:** OLE allows embedding external objects within Word documents. Vulnerabilities in these embedded objects can be exploited for code execution.
 Equation Editor Vulnerabilities: The equation editor has historically been a source of vulnerabilities, allowing for arbitrary code execution through crafted equations.
 
-**2. Microsoft Excel (.xls/.xlsx)**![Microsoft Excel Logo](images/excel.avif)
+**2. Microsoft Excel (.xls/.xlsx)**    ![Microsoft Excel Logo](images/excel.avif)
 Formula Injection: Malicious formulas within spreadsheets can manipulate data or execute commands on the user's system. XLSM files (Excel Macro-Enabled Workbook) are particularly vulnerable to macro attacks, similar to Word.
 Mitigation: Input validation, formula auditing, and disabling macros.
 Attack Vector: Compromised spreadsheets distributed via email or malicious websites, designed to steal credentials or install malware.
