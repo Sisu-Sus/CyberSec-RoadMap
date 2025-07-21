@@ -15,3 +15,7 @@ When a packet is transmitted to a loopback address, it bypasses the network stac
 ### Next Step
 - [CIDR]()
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
+
+
+### Resources
+[https://study-ccna.com/loopback-interface-loopback-address/](https://study-ccna.com/loopback-interface-loopback-address/)
