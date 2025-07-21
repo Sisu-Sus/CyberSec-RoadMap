@@ -15,7 +15,7 @@ TLS is the successor to SSL and incorporates numerous improvements addressing th
 
 ### Resource
 [https://aws.amazon.com/compare/the-difference-between-ssl-and-tls/](https://aws.amazon.com/compare/the-difference-between-ssl-and-tls/)
-![TLS vs SSL attributes](images/TSL_vs_SSL.png)
+![TLS vs SSL attributes](images/TLS_vs_SSL.png)
 
 ### Next Steps
 - [Basics Of NAS And SAN](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Basics_Of_NAS_And_SAN.md)
