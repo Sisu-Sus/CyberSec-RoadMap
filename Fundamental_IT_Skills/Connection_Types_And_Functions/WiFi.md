@@ -3,7 +3,7 @@
 
 This document provides a technical overview of Wireless Local Area Networks (WLANs), commonly referred to as Wi-Fi, focusing on the underlying technology and associated security implications. It assumes a basic understanding of networking principles such as TCP/IP and common attack vectors.
 
-### 1. Technology Fundamentals: IEEE 802.11 Standards
+### Technology Fundamentals: IEEE 802.11 Standards
 
 Wi-Fi operates under the umbrella of the IEEE 802.11 standards, which define protocols for wireless data transmission.  These standards specify aspects like modulation techniques, frequency bands, data rates, and security mechanisms. Key versions include:
 
@@ -17,7 +17,7 @@ Wi-Fi operates under the umbrella of the IEEE 802.11 standards, which define pro
 
 **Frequency Bands:**  The 2.4 GHz band is more susceptible to interference from other devices (e.g., Bluetooth, microwaves), while the 5 GHz band generally offers less congestion but has a shorter range due to higher frequency attenuation.
 
-### 2. WLAN Architecture & Components
+### WLAN Architecture & Components
 
 A typical WLAN consists of:
 
@@ -27,7 +27,7 @@ A typical WLAN consists of:
 * **Basic Service Set (BSS):** A single WLAN network consisting of one AP and all associated STAs.
 * **Extended Service Set (ESS):** Multiple BSSs interconnected via wired links, forming a larger WLAN network.
 
-### 3. Security Protocols & Vulnerabilities
+### Security Protocols & Vulnerabilities
 
 Early Wi-Fi networks relied on WEP (Wired Equivalent Privacy), which was quickly found to be vulnerable to various attacks due to weak encryption algorithms.  Subsequently, WPA (Wi-Fi Protected Access) and WPA2 were introduced:
 
@@ -45,7 +45,7 @@ Early Wi-Fi networks relied on WEP (Wired Equivalent Privacy), which was quickly
 
 
 
-### 4. Future Trends
+### Future Trends
 
 The evolution of Wi-Fi continues with a focus on:
 
