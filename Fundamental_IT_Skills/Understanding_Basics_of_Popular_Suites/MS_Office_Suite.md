@@ -64,13 +64,13 @@ Attack Vector: Compromised spreadsheets distributed via email or malicious websi
 
 - **User Awareness Training:** Educating users about phishing attacks and safe computing practices is essential for preventing successful attacks.
   
-Attack Vectors & Mitigation Summary Table:
-Attack Vector	Description	Mitigation Strategies
-Macro Attacks	Malicious VBA code executed upon document opening.	Disable macros, digital signatures, antivirus scanning, user education.
-Formula Injection (Excel)	Malicious formulas manipulate data or execute commands.	Input validation, formula auditing, macro disabling.
-Phishing (Outlook)	Deceptive emails trick users into revealing credentials or opening malicious attachments.	User training, email filtering, multi-factor authentication.
-OLE Exploits	Vulnerabilities in embedded objects lead to code execution.	Disable OLE, patch vulnerabilities.
-Equation Editor Exploits	Crafted equations trigger arbitrary code execution.	Patching, restricting equation editor access.
+### Attack Vector	Description	Mitigation Strategies
+|---|---|
+| Macro Attacks |	Malicious VBA code executed upon document opening. Disable macros, digital signatures, antivirus scanning, user education. |
+| Formula Injection (Excel)	| Malicious formulas manipulate data or execute commands.	Input validation, formula auditing, macro disabling. |
+| Phishing (Outlook) |	Deceptive emails trick users into revealing credentials or opening malicious attachments.	User training, email filtering, multi-factor authentication.| 
+| OLE Exploits	| Vulnerabilities in embedded objects lead to code execution.	Disable OLE, patch vulnerabilities.|
+| Equation Editor Exploits	| Crafted equations trigger arbitrary code execution.	Patching, restricting equation editor access.|
 Conclusion
 The Microsoft Office suite presents a complex and evolving security landscape. A layered approach combining technical controls (patch management, application whitelisting) with user awareness training is essential for mitigating the risks associated with this widely used platform. Continuous monitoring and proactive threat hunting are also crucial for detecting and responding to potential attacks.
 
