@@ -6,7 +6,7 @@ Ever wondered how massive networks stay organized and efficient? The secret lies
 Why is this important? Well, imagine trying to deliver mail to every house in a sprawling metropolis without any organized districts! It would be chaos. Subnetting helps prevent that kind of congestion on your network. By dividing the network, you reduce unneccasary 'broadcast traffic' - essentially, messages sent out to everyone - and give administrators more control over how IP addresses are assigned.
 
 ### How Does It Work? The Basics:
-Ever device connected to a network has an IP address--its unique identifier. This address is like a combination of a street name (the network portion) and a house number (the host portion). Subnetting allows us to adjust how we divide that address creating muliple 'neighborhoods' within the larger network.
+Every device connected to a network has an IP address--its unique identifier. This address is like a combination of a street name (the network portion) and a house number (the host portion). Subnetting allows us to adjust how we divide that address creating muliple 'neighborhoods' within the larger network.
 
 A subnet mask acts as the key to this process. It tells your computer which part of the IP address identifies the network itself and which part is for individual devices (hosts) on that subnet. By tweaking the subnet mask, you can create numerous subnets from a single original network - each with its own limited number of available addresses.
 
