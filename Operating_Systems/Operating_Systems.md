@@ -12,7 +12,7 @@ I would like to add that if you are trying a new Linux distro, I chose to go wit
 ### Resource / Study Sources
 - [https://en.wikipedia.org/wiki/Operating_system](https://en.wikipedia.org/wiki/Operating_system)
 - [NIST Special Publication 800-63B: Digital Identity Guidelines](https://csrc.nist.gov/publications/detail/sp/800-63b/final)
-- Operating System Concepts (Silberschatz, Galvin, Gagne): A classic textbook covering OS fundamentals, including security aspects.
-- The Shellcoder's Handbook: While dated, it provides valuable insights into exploitation techniques targeting operating systems. (Use with caution and ethical considerations).
+- **Operating System Concepts** (Silberschatz, Galvin, Gagne): A classic textbook covering OS fundamentals, including security aspects.
+- **The Shellcoder's Handbook**: While dated, it provides valuable insights into exploitation techniques targeting operating systems. (Use with caution and ethical considerations).
 - [OWASP (Open Web Application Security Project)](https://owasp.org/)
 
