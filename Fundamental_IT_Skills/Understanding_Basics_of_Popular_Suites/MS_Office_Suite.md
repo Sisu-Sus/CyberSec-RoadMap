@@ -25,27 +25,46 @@ Attack Vector: Compromised spreadsheets distributed via email or malicious websi
   
 - **VBA Macro Attacks (Similar to Word):** Excel's VBA environment is a common target for malware authors.
 
-![Microsoft PowerPint Logo](images/powerpoint.avif) - **Microsoft PowerPoint (.ppt/.pptx)
-Macro-Enabled Presentations: Similar risks as Word and Excel, with malicious macros capable of executing arbitrary code.
-Attack Vector: Malicious presentations delivered via email or embedded in websites.
-Embedded Objects (OLE): Vulnerabilities within embedded objects can be exploited for code execution.
-Triggered Actions: PowerPoint allows actions to be triggered upon opening a presentation, which can be abused to execute malicious code without user interaction.
-4. Microsoft Outlook (.pst/.ost)
-Phishing Attacks: Outlook is a primary vector for phishing campaigns designed to steal credentials or deliver malware attachments.
-Malicious Attachments: Similar risks as Word/Excel, with email attachments containing infected documents.
-Social Engineering: Attackers often leverage social engineering techniques to trick users into opening malicious attachments or clicking on links within emails.
-.pst/.ost File Corruption & Data Exfiltration: Corrupted PST/OST files can lead to data loss and potential exfiltration if not properly secured.
-5. Microsoft Access (.mdb/.accdb)
-SQL Injection (Limited): While less common than in web applications, vulnerabilities related to SQL injection are possible within Access databases, particularly when interacting with external data sources.
-Privilege Escalation: Improperly configured permissions can allow unauthorized users to gain elevated privileges and access sensitive data.
-Cross-Cutting Security Concerns
-Macro Security Settings: The default macro security settings in Office are often too permissive. Organizations should enforce stricter policies, including disabling macros by default and requiring digital signatures for trusted macros.
-Digital Signatures: Using digital signatures to verify the authenticity of documents can help prevent users from opening malicious files.
-Sandboxing & Virtualization: Running Office applications within a sandboxed environment or virtual machine can limit the impact of successful attacks.
-Application Whitelisting: Restricting which executables can run on a system can prevent malware from executing, even if it has bypassed other security controls.
-Patch Management: Regularly patching Office installations is crucial to address known vulnerabilities. Microsoft releases monthly security updates that often include fixes for Office-related issues.
-User Awareness Training: Educating users about phishing attacks and safe computing practices is essential for preventing successful attacks.
-Attack Vectors & Mitigation Summary Table:
+![Microsoft PowerPint Logo](images/powerpoint.avif) - **Microsoft PowerPoint (.ppt/.pptx)**
+
+- **Macro-Enabled Presentations:** Similar risks as Word and Excel, with malicious macros capable of executing arbitrary code.
+
+- **Attack Vector:** Malicious presentations delivered via email or embedded in websites.
+
+- **Embedded Objects (OLE):** Vulnerabilities within embedded objects can be exploited for code execution.
+
+- **Triggered Actions:** PowerPoint allows actions to be triggered upon opening a presentation, which can be abused to execute malicious code without user interaction.
+
+![Microsoft Outlook Logo](images/outlook.avif) - **Microsoft Outlook (.pst/.ost)**
+
+- **Phishing Attacks:** Outlook is a primary vector for phishing campaigns designed to steal credentials or deliver malware attachments.
+
+- **Malicious Attachments:** Similar risks as Word/Excel, with email attachments containing infected documents.
+
+- **Social Engineering:** Attackers often leverage social engineering techniques to trick users into opening malicious attachments or clicking on links within emails.
+
+- **.pst/.ost File Corruption & Data Exfiltration:** Corrupted PST/OST files can lead to data loss and potential exfiltration if not properly secured.
+  
+**Microsoft Access (.mdb/.accdb)**
+
+- **SQL Injection (Limited):** While less common than in web applications, vulnerabilities related to SQL injection are possible within Access databases, particularly when interacting with external data sources.
+
+- **Privilege Escalation:** Improperly configured permissions can allow unauthorized users to gain elevated privileges and access sensitive data.
+
+### Cross-Cutting Security Concerns
+- **Macro Security Settings:** The default macro security settings in Office are often too permissive. Organizations should enforce stricter policies, including disabling macros by default and requiring digital signatures for trusted macros.
+  
+- **Digital Signatures:** Using digital signatures to verify the authenticity of documents can help prevent users from opening malicious files.
+  
+- **Sandboxing & Virtualization:** Running Office applications within a sandboxed environment or virtual machine can limit the impact of successful attacks.
+  
+- **Application Whitelisting:** Restricting which executables can run on a system can prevent malware from executing, even if it has bypassed other security controls.
+
+- **Patch Management:** Regularly patching Office installations is crucial to address known vulnerabilities. Microsoft releases monthly security updates that often include fixes for Office-related issues.
+
+- **User Awareness Training:** Educating users about phishing attacks and safe computing practices is essential for preventing successful attacks.
+  
+### Attack Vectors & Mitigation Summary Table:
 Attack Vector	Description	Mitigation Strategies
 Macro Attacks	Malicious VBA code executed upon document opening.	Disable macros, digital signatures, antivirus scanning, user education.
 Formula Injection (Excel)	Malicious formulas manipulate data or execute commands.	Input validation, formula auditing, macro disabling.
