@@ -42,4 +42,5 @@
 ### IP Terminology
 - [Basics Of Subnets](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/Basics_Of_Subnets.md)
 - [Public vs Pricate IP Addresses](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/Public_vs_Private_IP_Addresses.md)
+- [localhost](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/localhost.md)
 - 
