@@ -117,7 +117,16 @@ Networking protocols are essential for facilitating communication between device
     IP is commonly paired with TCP to ensure reliable data delivery. IP sends packets to their destinations as they arrive, while TCP makes sure they are in the correct sequence since IP is connectionless and can deliver them out of order if they take different routes across the network.
 
 14. Border Gateway Protocol
-    
+    The Internet's functionality hinges on critical routing protocol called BGP (Border Gateway Protocol). BGP enables communication and coordination between independently managed networks, known as Autonomous Systems (ASes). An AS represents a collection of IP addresses and network segments governed by a single organization - this could be an ISP, a large corporation, a universtiy, or even a government body - that dictates its own routing rules.
+
+     Data packets traversing the internet often need to pass through several ASes to reach their final destination. Within each AS, routers utilize BGP to share information about the networks they control with nerighboring devices. This sharing extends beyond an AS's boundaries as edge routers connect and exchange data, building a map of reachable networks. This internal routing is handled by IBGP (Internal Border Gateway Protocol), while communication between different ASes relies on EBGP (External Border Gateway Protocol)
+
+    BGP's dynamic nature allows it to adapt to changes within the network; when routers are added or removed. BGP automatically updates routing tables and informs connected networks. The selection of optimal routes is based on factors like the number of ASes a packet must traverse and organizational policies. While primarily known for its role in internet-wide routing, BGP also plays an important part within large data centers, ensuring efficient traffic flow by advertising network availibility.
+
+15. Open Shortest Path First
+    OSPF (Open Shortest Path First) is a dynamic routing protocol crucial for efficient data transmission across IP networks. It works in conjunction with IP, which strives to deliver packets along the most expediant route - a goal that OSPF directly addresses. Essentially, OSPF prioritzes establishing the fastest or shortest path for packet delivery. A key function of OSPF is maintaining and updating routing tables--essentially, maps dictating where data should travel--and proactively notifying routers about any changes within these tables or the network itself.
+
+    Unlike old protocols like RIP(Routing Information Protocol), which relies on a simple hop count to determine routes, OSPF offers a more advanced and scalable solution. RIP's periodic updates - ocurring every 30 seconds - are inefficient compared to OSPF's approach of transmitting updates only when changes occur and focusing solely on the affected portions of the routing table. Furthermore, OSPF employs sophisticated metrics beyond hop counts, considering factors like bandwidth availibility, netowrk latency(delay), and link cost to determine optimal paths.
 
 ### Next Steps
 - [Common Ports and Their Uses](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Common_Ports_And_Their_Uses.md)
