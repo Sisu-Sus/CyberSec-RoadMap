@@ -10,7 +10,7 @@ The default gateway effectively acts as a traffic director, encapsulating outbou
 The following is an example of a simplified static IP configuration on a local network: 
 ![Static IP example](images/example_IP.png)
 ### Next Step
-- [VLAN]()
+- [VLAN](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Terms_Cont/VLAN.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
 
 ### Resource
