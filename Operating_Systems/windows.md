@@ -26,6 +26,15 @@ Windows incorporateds several security features:
 | Credential Guard | Uses virtualization-based security (VBS) to isolate LSA (Local Security Authority) processes, protecting credentials from theft. Requires specific hardware capabilities. |
 | Device Guard/Hypervisor-Protected Code Integrity (HVCI) | Enforces code integrity policies, preventing unsigned or untrusted applications from running. Can impact compatibility with older software. |
 
+### Common Attack Vectors & Vulnerabilities
+**Exploitation of Kernel Mode Drivers:** Drivers operate in a privileged mode and are often poorly written, making them attractive targets for attackers to gain system-level control. DoubleFault exploits are a prime example.
+**Privilege Escalation:** Exploiting vulnerabilities or misconfigurations (e.g., weak ACLs, insecure services) to elevate user privileges from standard user to administrator or SYSTEM level. Tools like Mimikatz are frequently used for credential theft and privilege escalation.
+**Malware Persistence Mechanisms:** Malware utilizes various techniques to ensure survival across reboots, including registry modifications, scheduled tasks, startup folders, and driver installation.
+**Phishing & Social Engineering:** Tricking users into executing malicious code or revealing credentials. UAC bypasses are often achieved through social engineering.
+**Remote Code Execution (RCE):** Exploiting vulnerabilities in network services or applications to execute arbitrary code on the target system. EternalBlue, used in WannaCry ransomware, is a notable example.
+**Pass-the-Hash/Pass-the-Ticket:** Stealing password hashes or Kerberos tickets to authenticate as another user without knowing their actual password.
+**DLL Hijacking:** Replacing legitimate DLL files with malicious ones to execute code when an application loads the hijacked library.
+**Zero-Day Exploits:** Attacks exploiting previously unknown vulnerabilities before a patch is available.
 
 
 
