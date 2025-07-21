@@ -14,13 +14,18 @@ Attack Vector: Spear phishing campaigns delivering malicious documents with enti
 - **Object Linking and Embedding (OLE) Exploits:** OLE allows embedding external objects within Word documents. Vulnerabilities in these embedded objects can be exploited for code execution.
 Equation Editor Vulnerabilities: The equation editor has historically been a source of vulnerabilities, allowing for arbitrary code execution through crafted equations.
 
-**2. Microsoft Excel (.xls/.xlsx)**    ![Microsoft Excel Logo](images/excel.avif)
-Formula Injection: Malicious formulas within spreadsheets can manipulate data or execute commands on the user's system. XLSM files (Excel Macro-Enabled Workbook) are particularly vulnerable to macro attacks, similar to Word.
-Mitigation: Input validation, formula auditing, and disabling macros.
+![Microsoft Excel Logo](images/excel.avif) - **Microsoft Excel (.xls/.xlsx)**
+
+- **Formula Injection:** Malicious formulas within spreadsheets can manipulate data or execute commands on the user's system. XLSM files (Excel Macro-Enabled Workbook) are particularly vulnerable to macro attacks, similar to Word.
+
+- **Mitigation:** Input validation, formula auditing, and disabling macros.
 Attack Vector: Compromised spreadsheets distributed via email or malicious websites, designed to steal credentials or install malware.
-Data Validation Exploits: Improperly configured data validation rules can be exploited to trigger vulnerabilities.
-VBA Macro Attacks (Similar to Word): Excel's VBA environment is a common target for malware authors.
-3. Microsoft PowerPoint (.ppt/.pptx)
+
+- **Data Validation Exploits:** Improperly configured data validation rules can be exploited to trigger vulnerabilities.
+  
+- **VBA Macro Attacks (Similar to Word):** Excel's VBA environment is a common target for malware authors.
+
+![Microsoft PowerPint Logo](images/powerpoint.avif) - **Microsoft PowerPoint (.ppt/.pptx)
 Macro-Enabled Presentations: Similar risks as Word and Excel, with malicious macros capable of executing arbitrary code.
 Attack Vector: Malicious presentations delivered via email or embedded in websites.
 Embedded Objects (OLE): Vulnerabilities within embedded objects can be exploited for code execution.
@@ -55,8 +60,6 @@ The Microsoft Office suite presents a complex and evolving security landscape. A
 ### Currently Available Apps and Services (2025)
   - Teams ![Teams Logo](images/teams.avif)
   - Word ![Word Logo](images/word.avif)
-  - Excel ![Excel Logo](images/excel.avif)
-  - PowerPoint ![PowerPoint Logo](images/powerpoint.avif)
   - Outlook ![Outlook logo](images/outlook.avif)
   - OneNote ![OneNote logo](images/onenote.avif)
   - Defender ![Defender Logo](images/defender.avif)
