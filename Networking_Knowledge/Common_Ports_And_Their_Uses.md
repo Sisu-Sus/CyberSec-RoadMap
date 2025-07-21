@@ -21,7 +21,7 @@ Here's a breakdown of some key ports:
 
 - Database Ports (3306/1433): MySQL and Microsoft SQL Server, respectively - securing these ports is vital to protect sensitive data.
 
-Cybersecurity professionals leverage port scanning tools (nmap) and Intrusion Detection Systems (IDSes) to monitor network traffic, identify anomalies, and proactively defend against attacks targeting specific services associated with these common ports. 
+Cybersecurity professionals leverage port scanning tools (nmap) and Intrusion Detection Systems (IDS) to monitor network traffic, identify anomalies, and proactively defend against attacks targeting specific services associated with these common ports. 
 
 ### Next Step
 - [SSL And TLS Basics](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/SSL_And_TLS_Basics.md)
