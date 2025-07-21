@@ -17,5 +17,5 @@ Efficient network communication relies on a robust addressing scheme. At its cor
 - Security Implications: Private networks offer a degree of inherent security through segmentation, although this is not a substitute for robust firewall and IDS ( Intrusion Detection Systems).
 
 ### Next Step
-- [localhost]()
+- [localhost](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/localhost.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
