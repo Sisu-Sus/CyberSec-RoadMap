@@ -27,7 +27,7 @@ Networking protocols are essential for facilitating communication between device
    - Pointer Record: A PTR record is a reverse lookup that maps an IP address to an FQDN
   
 2. Dynamic Host Configuration Protocol (DHCP)
-   DHCP Automates the process of assigning IP addresses to network endpoints so they can communicate with other nwtork devices over IP. Whenever a device joins a network with a DHCP server for the first time, DHCP automatically assigns it a new IP address and continues to do so each time a device moves locations on the netowrk. Without DHCP, network admins must manually assign IP addresses to each new device.
+   DHCP automates the process of assigning IP addresses to network endpoints so they can communicate with other network devices over IP. Whenever a device joins a network with a DHCP server for the first time, DHCP automatically assigns it a new IP address and continues to do so each time a device moves locations on the network. Without DHCP, network admins must manually assign IP addresses to each new device.
 
    When a device connects to a network, a DHCP handshake takes place. In this handshake process, the device and DHCP server communicate using the following steps:
    1. The device establishes a connection and sends a DHCP broadcast request on the LAN to find a DHCP server that could assign an IP address to it.
@@ -40,19 +40,19 @@ Networking protocols are essential for facilitating communication between device
    Besides dynamically assigning IP addresses, a DHCP server also passes essential network configuration information, such as subnet masks, defualt gateways, DNS server addresses and domain names, to requesting device. This enables devices to communicate seamlessly within both local and external networks.
 
 3. File Transfer Protocol
-     FTP is a client-server protocol that transfers files between a client and a server and operates over TCP/IP. It uses two communication channels: the command channel and the data channel. Clients request files through the command channel and receive access to download, edit and copy the gile, among other actions, through the data channel.
+     FTP is a client-server protocol that transfers files between a client and a server and operates over TCP/IP. It uses two communication channels: the command channel and the data channel. Clients request files through the command channel and receive access to download, edit and copy the file, among other actions, through the data channel.
 
-      While FTP is a file-transferring protocol, it doesn't encrypt data and send it in plainetext, making it vulnerable to security risks. Therefore, most businesses opt for file transfer protocols that are secure, such as Secure FTP, to safely transfer files over a network.
+      While FTP is a file-transferring protocol, it doesn't encrypt data and sends it in plaintext, making it vulnerable to security risks. Therefore, most businesses opt for file transfer protocols that are secure, such as Secure FTP, to safely transfer files over a network.
 
 4. Hypertext Transfer Protocol
    HTTP operates on a client-server model and is the primary method by which web browsers and servers communicate to share information over the internet. While its main purpose is to transfer webpages and provide other resources during web browsing, it is also able to transfer data, facilitating file sharing.
 
-   Another form of HTTP is HTTP Secure. HTTPS can encrypt a user's HTTP requests and webpages, providing greateR network security and preventing common cybersecurity threats, such as Man In The Middle (MITM) attacks.
+   Another form of HTTP is HTTP Secure. HTTPS can encrypt a user's HTTP requests and webpages, providing greater network security and preventing common cybersecurity threats, such as Man In The Middle (MITM) attacks.
 
    HTTPS has become the new standard for web browsing.
 
 5. Simple Mail Transfer Protocol
-   SMTP--The most widely used email protocol--is part of the TCP/IP suite and control how email clients send users' email messages. Email servers use SMTP to send email messages from the client to the email server to the reveiving email server. However, SMTP doesn't control how email clients receive messages -- just how clients send messages. Essentially, it's just a mail delivery protocol and not used for retrieval of messages.
+   SMTP--The most widely used email protocol--is part of the TCP/IP suite and control how email clients send users' email messages. Email servers use SMTP to send email messages from the client to the email server to the receiving email server. However, SMTP doesn't control how email clients receive messages -- just how clients send messages. Essentially, it's just a mail delivery protocol and not used for retrieval of messages.
 
    That said, SMTP requires other protocols to ensure email messages are sent and received properly. It can work with Post Office Protocol 3 or Internet Message Access Protocol, bot of which control how an email server receives email messages.
 
