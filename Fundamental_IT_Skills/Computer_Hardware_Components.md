@@ -1,12 +1,7 @@
 # Computer Hardware Components
-
-## Roadmap.sh Summary
 Computer hardware components are the pyhsical parts of a computer system that work togther to pergorm computing tasks. The key components include the Central Processing Unit (CPU), which is the "brain" of the computer responible for executing instructions and processing data. The motherboard is the main circuit board that connects and allows communication between the CPU, memory, and other hardware. Random Access Memory (RAM) serves as the computer's short-term memory, storing data that is actively being used by the CPU for quick access.
 
 The storage device, such as a Hard Disk Drive (HDD) or Solid-State Drive (SSD), is where data is permanently stored, including the operating system, applications, and files. The power supply unit (PSU) provides the necessary electrical power to run the components. Grapics Processing Units (GPU), dedicated for rendering images and videos, are important for tasks like gaming, video editing, and machine learning. Additionally, input devices like keyboards and mice, and output devices like monitors and printers, enable users to interact with the system. Together, these components make up the essential hardware of a computer, enabling it to perform various functions.
-
-### Resource
-[https://uk.crucial.com/articles/pc-builders/what-is-computer-hardware](https://uk.crucial.com/articles/pc-builders/what-is-computer-hardware)
 
 ## Examples between Software and Hardware
 ### Software Components
@@ -53,3 +48,7 @@ The PSU is responsible for passing electricity to the motherboard for the rest o
 ### Next Step
 - [Connection Types](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Connection_Types_And_Functions/Connection_Types_And_Functions.md) 
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
+
+
+### Resource
+[https://uk.crucial.com/articles/pc-builders/what-is-computer-hardware](https://uk.crucial.com/articles/pc-builders/what-is-computer-hardware)
