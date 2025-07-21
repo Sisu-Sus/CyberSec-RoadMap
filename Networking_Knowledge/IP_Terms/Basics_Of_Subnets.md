@@ -20,6 +20,9 @@ A subnet mask acts as the key to this process. It tells your computer which part
 
 - Better Traffic Control: You can direct data flow more effectively, preventing bottlenecks and optimizing network performance.
 
+### Resources
+- [https://roadmap.sh](https://roadmap.sh/cyber-security)
+- [https://www.cbtnuggets.com/blog/technology/networking/networking-basics-what-is-ipv4-subnetting](https://www.cbtnuggets.com/blog/technology/networking/networking-basics-what-is-ipv4-subnetting)
 
 ### Next Step
 - [Public vs Private IP Adresses]()
