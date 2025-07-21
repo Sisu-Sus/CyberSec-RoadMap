@@ -48,5 +48,5 @@
 - [Subnet Mask](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/subnetmask.md)
 - [Default Gateway](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/Default_Gateway.md)
 ---
-### Terms Continued
+### Terminology Continued
 - [VLAN](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Terms_Cont/VLAN.md)
