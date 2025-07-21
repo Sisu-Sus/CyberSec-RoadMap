@@ -12,7 +12,7 @@ Efficient network communication relies on a robust addressing scheme. At its cor
 
 - Address Space Allocation: Public IP address assignment follows hierarchical allocation policies managed by RIRs and ISPs; private IP assignments are administratively controlled within the local network.
 
-- NAT Dependency: Devices utilizing IP addreses require NAT for external communication, whereas devices with public IPs communicate directly.
+- NAT Dependency: Devices utilizing IP addresses require NAT for external communication, whereas devices with public IPs communicate directly.
 
 - Security Implications: Private networks offer a degree of inherent security through segmentation, although this is not a substitute for robust firewall and IDS ( Intrusion Detection Systems).
 
