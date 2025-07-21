@@ -33,6 +33,21 @@ This document provides a detailed overview of computer networking principles, es
 | DNS (Domain Name System) | Translates human-readable domain names into IP addresses. |
 | DHCP (Dynamic Host Configuration Protocol) | Automatically assigns IP addresses and other network configuration parameters to devices. |
 
+---
+
+### Addressing & Routing
+**IP Addresses:** Unique numerical identifiers assigned to each device on a network. Two versions:
+  - **IPv4:** 32-bit address space (e.g., 192.168.1.1). Depleting rapidly.
+  - **IPv6:** 128-bit address space, providing vastly more addresses.
+
+**Subnetting:** Dividing a network into smaller subnetworks to improve efficiency and security. Involves borrowing bits from the host portion of an IP address.
+
+**Routing:** The process of forwarding data packets between networks. Routers use routing tables to determine the best path for packet delivery.
+
+**Static Routing:** Manually configured routes; inflexible but predictable.
+
+**Dynamic Routing:** Routes are learned and updated automatically using routing protocols (e.g., OSPF, BGP).
+
 ### Next Step
 - [Operating Systems](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Operating_Systems.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
