@@ -43,7 +43,13 @@ Windows incorporateds several security features:
 
 **Zero-Day Exploits:** Attacks exploiting previously unknown vulnerabilities before a patch is available.
 
-
+### Brief Versions Overview
+| Version | Description |
+|---|---|
+| Windows XP/Vista | End of life, no longer receiving security updates – extremely vulnerable and should not be used in production environments. |
+| Windows 7 | End of extended support for most editions; significant vulnerability risk. |
+| Windows 8/8.1 | Less common than other versions but still potentially vulnerable if unpatched. |
+| Windows 10/11 | Regular security updates are crucial. Feature Updates introduce new functionalities and potential vulnerabilities. Consider the impact of HVCI on application compatibility. |
 
 
 ### Next Step
