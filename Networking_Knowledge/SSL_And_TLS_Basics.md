@@ -13,6 +13,10 @@ It's important to understand that SSL has been superseded by TLS due to identifi
 
 TLS is the successor to SSL and incorporates numerous improvements addressing the weaknesses found in earlier verisons of SSL. It's now the industry standard for securing web communications and offers enhanced protection against various attacks. Websites utilizing TLS typically display "https://" in thier URLs, indicating a secure connection.
 
+### Resource
+[https://aws.amazon.com/compare/the-difference-between-ssl-and-tls/](https://aws.amazon.com/compare/the-difference-between-ssl-and-tls/)
+![TLS vs SSL attributes](images/TSL_vs_SSL.png)
+
 ### Next Steps
 - [Basics Of NAS And SAN](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Basics_Of_NAS_And_SAN.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
