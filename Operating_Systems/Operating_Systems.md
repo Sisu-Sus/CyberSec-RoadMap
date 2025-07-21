@@ -36,6 +36,24 @@ The operating system (OS) serves as the foundational layer upon which all other 
 
 **Supply Chain Attacks:** Compromising software or hardware during development or distribution can introduce vulnerabilities into the OS itself.
 
+### Mitigation Strategies & Best Practices
+**Regular Patching:** Promptly apply security updates released by vendors (Microsoft, Apple, Linux distributions). Automate patching where possible.
+
+**Least Privilege Principle:** Grant users and applications only the minimum necessary permissions.
+
+**Hardening:** Implement OS hardening guidelines to disable unnecessary services, restrict access, and strengthen configurations. CIS Benchmarks are a valuable resource for this.
+
+**Intrusion Detection/Prevention Systems (IDS/IPS):** Monitor system activity for suspicious behavior and block malicious traffic.
+
+**Endpoint Detection and Response (EDR) Solutions:** Provide advanced threat detection and response capabilities on individual endpoints.
+
+**Security Information and Event Management (SIEM) systems:** Centralize log collection and analysis to identify security incidents.
+
+**Code Auditing & Static Analysis:** Review OS source code for vulnerabilities.
+
+**Sandboxing:** Isolate applications in a restricted environment to limit the impact of potential exploits.
+
+This deep dive provides a foundational understanding of operating system security concepts. Further research into specific vulnerabilities and mitigation techniques is encouraged for continued learning. Remember to always consult official documentation and reputable sources for the most accurate and up-to-date information.
 
 ### Next Step
 - [Windows](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/windows.md)
