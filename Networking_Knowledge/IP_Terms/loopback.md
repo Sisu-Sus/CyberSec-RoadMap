@@ -13,7 +13,7 @@ When a packet is transmitted to a loopback address, it bypasses the network stac
 - Protocol Implementation Verification: Testing custom protocol implementations without requiring a remote peer.
 
 ### Next Step
-- [CIDR]()
+- [CIDR](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/CIDR.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
 
 
