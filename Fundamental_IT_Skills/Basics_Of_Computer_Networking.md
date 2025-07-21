@@ -5,10 +5,12 @@ This document provides a detailed overview of computer networking principles, es
 
 ### Core Concepts & Terminology
 **Network Topology:** The physical or logical arrangement of devices in a network. Common topologies include:
-  - **Bus:** Simple, single cable; vulnerable to breaks and collisions. (Rarely used today)
-  - **Star:** Central hub/switch connects all nodes; easier management & fault isolation but relies on the central device.
-  - **Ring:** Data travels in a circular path; susceptible to single point of failure. (Historically used, less common now).
-  - **Mesh:** Nodes are interconnected with multiple paths; highly resilient but complex and expensive.
+| Topology | Explanation |
+|---|---|
+| Bus | Simple, single cable; vulnerable to breaks and collisions. (Rarely used today) |
+| Star | Central hub/switch connects all nodes; easier management & fault isolation but relies on the central device. |
+| Ring | Data travels in a circular path; susceptible to single point of failure. (Historically used, less common now). |
+| Mesh | Nodes are interconnected with multiple paths; highly resilient but complex and expensive. |
 
 ### Next Step
 - [Operating Systems](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Operating_Systems.md)
