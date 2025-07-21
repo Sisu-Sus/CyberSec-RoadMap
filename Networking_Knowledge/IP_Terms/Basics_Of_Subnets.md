@@ -28,5 +28,5 @@ A subnet mask acts as the key to this process. It tells your computer which part
 - [https://www.cbtnuggets.com/blog/technology/networking/networking-basics-what-is-ipv4-subnetting](https://www.cbtnuggets.com/blog/technology/networking/networking-basics-what-is-ipv4-subnetting)
 
 ### Next Step
-- [Public vs Private IP Adresses]()
+- [Public vs Private IP Adresses](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/Public_vs_Private_IP_Addresses.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
