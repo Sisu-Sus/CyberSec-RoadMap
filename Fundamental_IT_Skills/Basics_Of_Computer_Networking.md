@@ -63,10 +63,26 @@ This document provides a detailed overview of computer networking principles, es
 
 **Wireless Access Points (WAPs):** Allow devices to connect wirelessly to a network using Wi-Fi standards (e.g., 802.11a/b/g/n/ac/ax).
 
+--
+
+### Security Considerations & Attack Vectors
+**MAC Address Spoofing:** An attacker can change their device's MAC address to impersonate another device on the network, potentially bypassing access controls.
+
+**ARP Poisoning (Address Resolution Protocol Poisoning):** An attacker manipulates ARP tables to redirect traffic intended for a legitimate device to an attacker-controlled machine. This allows eavesdropping or man-in-the-middle attacks.
+
+**DNS Spoofing/Cache Poisoning:** An attacker provides false DNS records, directing users to malicious websites.
+DHCP Starvation: An attacker exhausts the available IP addresses in a DHCP pool, preventing legitimate devices from connecting.
+
+**Wireless Network Attacks:**
+  - **Evil Twin:** Setting up a rogue access point with a similar SSID to trick users into connecting.
+  - **WEP/WPA/WPA2 Cracking:** Exploiting vulnerabilities in older wireless encryption protocols. (WPA3 is the current standard and offers improved security).
+**Man-in-the-Middle (MITM) Attacks:** Intercepting communication between two parties without their knowledge, often facilitated by ARP poisoning or DNS spoofing.
+**Denial of Service (DoS/DDoS):** Overwhelming a network or server with traffic to make it unavailable to legitimate users.
 
 ### Next Step
 - [Operating Systems](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Operating_Systems.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
 
-### Resource
+### Resource / Study Sources
 [https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html](https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html)
+[CompTIA Network+ Certification Objectives](https://www.comptia.org/certifications/network)
