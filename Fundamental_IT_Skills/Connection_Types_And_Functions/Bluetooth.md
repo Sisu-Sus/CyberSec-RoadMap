@@ -35,7 +35,7 @@ Several attack vectors exploit weaknesses in the Bluetooth protocol or its imple
 
 **Man-in-the-Middle (MitM) Attacks:** An attacker intercepts communication between two Bluetooth devices, potentially modifying data or eavesdropping on the conversation. Weak encryption or vulnerabilities in the FHSS implementation can facilitate MitM attacks.
 
-**Eavesdropping/Traffic Analysis:* Even with encryption enabled, traffic analysis techniques can sometimes reveal information about the type of data being transmitted (e.g., audio vs. file transfer).
+**Eavesdropping/Traffic Analysis:** Even with encryption enabled, traffic analysis techniques can sometimes reveal information about the type of data being transmitted (e.g., audio vs. file transfer).
 Firmware Vulnerabilities: Bugs within Bluetooth device firmware are a common source of vulnerabilities. These bugs may allow for remote code execution or denial-of-service attacks.
 
 **BLE Advertising Exploitation:** BLE devices frequently broadcast advertising packets containing information about the device and its services. Attackers can exploit weaknesses in how these advertisements are handled to inject malicious data or launch denial-of-service attacks.
