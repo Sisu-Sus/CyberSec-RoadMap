@@ -1,6 +1,6 @@
 # Common Ports And Their Uses
 
-## Understanding Network Ports: A Cybersecurirty Essential
+## Understanding Network Ports: A Cybersecurity Essential
 Network ports are standardized communication endpoints that facilitate data exchange between applications on different devices. They're integral to cybersecurity, enabling effective firewall configuration, threat detection, and network traffic management. A deep understanding of these ports is a cornerstone for any security professional.
 
 While seeminly abstract, ports provide crucial context when analyzing network activity. Deviations from expected port usage can indicate malicious behaviour or misconfigured services.
