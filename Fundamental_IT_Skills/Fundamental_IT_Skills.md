@@ -1,12 +1,8 @@
 # Fundamental IT Skills
-
-## Roadmap.sh Summary:
 A strong foundation in core IT skills is essential for success in cybersecurity. These foundational elements extend beyond just security tools; they encompass a broad understanding of how technology works. Key areas include computer hardware and software principles, networking fundamentals, and operating system expertise (with a focus on Windows and Linux). Increasingly, proficiency in at least one programming langauge - Python or JavaScript are popular choices - is vital for automating tasks and scripting solutions. Database management skills, particularly with SQL, are crucual for data handling and security. With the rise of cloud computing, familiarity with platforms like AWS or Azure is now a necessity. Building on this base, understanding core cybersecurity concepts such as encryption, access control, and common attack methods provides a solid starting point for more specialized work. Finally, practical skills like troubleshooting, log analysis, and basic web technology knowledge are invaluable. Mastering these fundamental IT skills empowers cybersecurity professionals to effectively safeguard systems, pinpoint vulnerabilities, and respond to incidents in today's complex digital environment.
 
 ### Feel Like Building Something?
 One resource I can personally recommend and used is [https://automatetheboringstuff.com](https://automatetheboringstuff.com) for python. Theres many books to read through and I feel it's a great starting point if you are here just because you like how hackerman sounds. Many people struggle with being overwhelmed and just learning some syntax and how a langauge works can help greatly, especially when you have no clue why something isn't   *--or is--*   working right.
-
-### Resource [https://www.indeed.com/career-advice/finding-a-job/it-skills](https://www.indeed.com/career-advice/finding-a-job/it-skills)
 
 ### IT Skills
 
@@ -30,3 +26,7 @@ One resource I can personally recommend and used is [https://automatetheboringst
 ### Next Step
 - [Computer Hardware Components](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Fundamental_IT_Skills/Computer_Hardware_Components.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
+
+
+### Resource
+[https://www.indeed.com/career-advice/finding-a-job/it-skills](https://www.indeed.com/career-advice/finding-a-job/it-skills)
