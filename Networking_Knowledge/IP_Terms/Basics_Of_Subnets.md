@@ -20,6 +20,9 @@ A subnet mask acts as the key to this process. It tells your computer which part
 
 - Better Traffic Control: You can direct data flow more effectively, preventing bottlenecks and optimizing network performance.
 
+
+*Authors Note* I bought a $20 edge-router and did a whole subnet practice in my homelab. If anyone reads this and feels like a writeup on that would greatly help them please reach out so I can do that for you.
+
 ### Resources
 - [https://roadmap.sh](https://roadmap.sh/cyber-security)
 - [https://www.cbtnuggets.com/blog/technology/networking/networking-basics-what-is-ipv4-subnetting](https://www.cbtnuggets.com/blog/technology/networking/networking-basics-what-is-ipv4-subnetting)
