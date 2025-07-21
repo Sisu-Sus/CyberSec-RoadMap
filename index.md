@@ -45,3 +45,5 @@
 - [localhost](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/localhost.md)
 - [loopback](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/loopback.md)
 - [CIDR](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/CIDR.md)
+- [Subnet Mask](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/subnetmask.md)
+- [Default Gateway]
