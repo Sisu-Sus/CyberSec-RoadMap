@@ -9,7 +9,8 @@
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
 
 ## Resource / Study Sources
-[https://learn.microsoft.com/en-us/windows/security/](https://learn.microsoft.com/en-us/windows/security/)
-SANS Institute Courses (SEC504, SEC617): While paid courses, they offer in-depth coverage of Windows security. Look for related materials online.
-Cybersecurity Blogs & Forums: Search for articles on specific Windows vulnerabilities and attack techniques (e.g., "Windows privilege escalation," "Windows kernel exploitation").
-[National Vulnerability Database (NVD)](https://nvd.nist.gov/(
+- [https://learn.microsoft.com/en-us/windows/security/](https://learn.microsoft.com/en-us/windows/security/)
+[National Vulnerability Database (NVD)](https://nvd.nist.gov/)
+- SANS Institute Courses (SEC504, SEC617): While paid courses, they offer in-depth coverage of Windows security. Look for related materials online.
+- Cybersecurity Blogs & Forums: Search for articles on specific Windows vulnerabilities and attack techniques (e.g., "Windows privilege escalation," "Windows kernel exploitation").
+
