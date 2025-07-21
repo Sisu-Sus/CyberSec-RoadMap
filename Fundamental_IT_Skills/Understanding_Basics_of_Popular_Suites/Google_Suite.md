@@ -20,6 +20,26 @@ Google Workspace is a suite of cloud-based productivity and collaboration applic
 - **Identity Management:** Google Workspace integrates with Google Identity Platform (formerly known as Google Accounts) providing centralized identity management and authentication services.
 
 ### Security Considerations & Potential Attack Vectors
+**Data Encryption:** Google employs encryption both in transit (TLS 1.2 or higher) and at rest using Advanced Encryption Standard (AES). Key management is handled by Google, although organizations have limited visibility into the specific key rotation policies.
+
+**Two-Factor Authentication (2FA):** A critical security control that significantly reduces the risk of account compromise. However, user adoption rates remain a concern.
+
+**Advanced Threat Protection (ATP):** Available as an add-on service, ATP provides enhanced protection against phishing attacks, malware, and other malicious content within Gmail and Google Drive.
+
+**Data Loss Prevention (DLP):** DLP policies can be configured to prevent sensitive data from leaving the organization's control through email or file sharing.
+
+**Access Control & Permissions:** Granular access controls are essential for limiting user privileges and preventing unauthorized data access. Misconfigured share settings are a common source of data leakage.
+
+**Phishing Attacks:** Targeted phishing campaigns designed to steal Google account credentials remain a significant threat. These attacks often leverage social engineering techniques to trick users into revealing their login information.
+
+**Third-Party App Integrations:** Applications integrated with Google Workspace can introduce vulnerabilities if they are poorly secured or have excessive permissions. Supply chain attacks targeting these integrations are also possible.
+
+**Google Apps Script Vulnerabilities:** Malicious scripts deployed through Google Apps Script can compromise data, disrupt services, or gain unauthorized access to user accounts.
+
+**Data Residency & Compliance:** Organizations must consider data residency requirements and ensure compliance with relevant regulations (e.g., GDPR, HIPAA) when using Google Workspace. The location of data storage may impact compliance obligations.
+
+**Privilege Escalation:** Attackers might attempt to exploit vulnerabilities in APIs or administrative interfaces to gain elevated privileges within the Google Workspace environment.
+
 ---
 ![Google Apps](images/google_apps.png)
 
