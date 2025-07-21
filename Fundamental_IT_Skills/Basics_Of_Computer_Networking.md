@@ -22,6 +22,17 @@ This document provides a detailed overview of computer networking principles, es
 | MAN (Metropolitan Area Network) | Connects LANs within a city or metropolitan area. |
 | VPN (Virtual Private Network) | Creates a secure, encrypted connection over a public network (like the Internet), effectively extending a private network. |
 
+---
+
+**Protocols:** Sets of rules governing data communication:
+| Protocol | Description |
+|---|---|
+| TCP/IP (Transmission Control Protocol/Internet Protocol) | The foundational protocol suite for the internet. TCP provides reliable, ordered delivery; IP handles addressing and routing. |
+| UDP (User Datagram Protocol) | Connectionless protocol offering faster but unreliable transmission (suitable for streaming or gaming). |
+| HTTP/HTTPS (Hypertext Transfer Protocol/Secure HTTP) | Used for web communication; HTTPS adds encryption via TLS/SSL. |
+| DNS (Domain Name System) | Translates human-readable domain names into IP addresses. |
+| DHCP (Dynamic Host Configuration Protocol) | Automatically assigns IP addresses and other network configuration parameters to devices. |
+
 ### Next Step
 - [Operating Systems](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Operating_Systems.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
