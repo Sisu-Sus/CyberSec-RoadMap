@@ -11,7 +11,7 @@ I'm using this as a framework to organize my thoughts, test ideas in my homelab,
 - To eventually help others think like me -- curious, chaotic, and tring to find signal in all the noise.
 
 ## What's Inside
-Think of this as a technical scriptorium: sourced teachings linked at the top, followed by paraphrased notes, direct quotes, or commentary. I add my voice only when I've lived the lesson -- otherwise, I just keep the signal clear. All the credit goes the orginators.
+Think of this as a technical scriptorium: sourced teachings linked at the top, followed by paraphrased notes, direct quotes, or commentary. I add my voice only when I've lived the lesson -- otherwise, I just keep the signal clear. All the credit goes to the orginators.
 
 ## Live Progess (WIP)
 - [X] Fundamental IT Skills
