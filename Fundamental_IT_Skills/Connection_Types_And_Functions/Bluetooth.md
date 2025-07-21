@@ -64,5 +64,5 @@ Bluetooth remains a persistent attack vector due to the complexity of the protoc
 
 
 ### Resource
-[https://www.zenarmor.com/docs/network-basics/what-is-bluetooth](https://www.zenarmor.com/docs/network-basics/what-is-bluetooth)
-[https://www.Bluetooth.com](https://Bluetooth.com/)
+- [https://www.zenarmor.com/docs/network-basics/what-is-bluetooth](https://www.zenarmor.com/docs/network-basics/what-is-bluetooth)
+- [https://www.Bluetooth.com](https://Bluetooth.com/)
