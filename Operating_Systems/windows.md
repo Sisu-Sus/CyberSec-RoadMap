@@ -16,6 +16,15 @@ Windows is a hybrid kernel architecture combining elements of monolithic and mic
 
 ### Security Features & Mechanisms
 Windows incorporateds several security features:
+| Feature/Mechanism | Description |
+|---|---|
+| User Account Control (UAC) | A mechanism requiring administrative approval for actions that require elevated privileges. While intended to mitigate unauthorized changes, UAC can be bypassed through social engineering or exploiting vulnerabilities in applications requesting elevation. |
+| Windows Defender | A built-in antivirus and anti-malware solution. Effectiveness depends on signature updates and behavioral analysis capabilities; evasion techniques are constantly evolving. |
+| BitLocker Drive Encryption | Full disk encryption protecting data at rest. Key management is critical – compromised recovery keys render the protection ineffective. |
+| Windows Firewall | A stateful firewall controlling network traffic based on predefined rules. Configuration errors can create vulnerabilities. |
+| Secure Boot | Verifies digital signatures of boot loaders and operating system components to prevent rootkits from loading during startup. Can be bypassed with compromised firmware or UEFI exploits. | 
+| Credential Guard | Uses virtualization-based security (VBS) to isolate LSA (Local Security Authority) processes, protecting credentials from theft. Requires specific hardware capabilities. |
+| Device Guard/Hypervisor-Protected Code Integrity (HVCI) | Enforces code integrity policies, preventing unsigned or untrusted applications from running. Can impact compatibility with older software. |
 
 
 
