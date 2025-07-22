@@ -61,5 +61,5 @@ While password complexity requirements were once considered best practice, moder
 
 ### Resources 
 - [Center for Internet Security (CIS) Benchmarks](https://www.cisecurity.org/benchmarks/)
-
+- [https://www.debian.org/releases/stable/i386/](https://www.debian.org/releases/stable/i386/)
 
