@@ -33,13 +33,12 @@ Choosing appropriate protocols is fundamental to secure communication.
 
   - **SSH vs. FTP:** SSH offers authenticated and encrypted file transfer, while FTP transmits credentials and data in plaintext.
 
-### Threat Landscape Differences (Malware, Phishing, DDoS)
-Each threat type requires distinct mitigation strategies.
-Malware: Requires anti-malware software, intrusion detection systems (IDS), and endpoint detection and response (EDR) solutions.
-Phishing: Demands user awareness training, email filtering, and multi-factor authentication.
-Distributed Denial of Service (DDoS): Requires traffic scrubbing services, rate limiting, and content delivery networks (CDNs).
+**Threat Landscape Differences (Malware, Phishing, DDoS):** Each threat type requires distinct mitigation strategies.
+  - **Malware:** Requires anti-malware software, intrusion detection systems (IDS), and endpoint detection and response (EDR) solutions.
+  - **Phishing:** Demands user awareness training, email filtering, and multi-factor authentication.
+  - **Distributed Denial of Service (DDoS):** Requires traffic scrubbing services, rate limiting, and content delivery networks (CDNs).
 
-## Versioning Best Practices & Mitigation Strategies:
+### Versioning Best Practices & Mitigation Strategies:
 
 ### Automated Patch Management
 Implement automated patch management systems to ensure timely application of security updates across all systems.
