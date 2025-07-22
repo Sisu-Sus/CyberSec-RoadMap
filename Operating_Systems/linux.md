@@ -31,6 +31,36 @@ Linux is not an operating system per se, but rather the kernel – the core comp
 
 **Firewalling (iptables/nftables):** Linux firewalls control network traffic based on rules defined by the administrator. Misconfigured firewalls can expose services to unauthorized access.
 
+### Common Vulnerabilites & Attack Vectors
+**Kernel Exploits:** Vulnerabilities in the kernel itself are highly dangerous, as they often allow attackers to gain root privileges directly. Examples include:
+  - **Race Conditions:** Occur when multiple processes or threads access shared resources concurrently, leading to unpredictable behavior and potential exploits.
+  - **Null Pointer Dereferences:** Occur when a program attempts to access memory at address 0 (NULL), often resulting in crashes or exploitable conditions.
+  - **Integer Overflows:** Occur when arithmetic operations result in values that exceed the maximum representable value, leading to unexpected behavior and potential buffer overflows.
+
+**Shellshock (Bash Vulnerability):** A vulnerability in the Bash shell allowing arbitrary code execution through environment variables. (CVE-2014-6271)
+
+**Log4j-like vulnerabilities:** While Log4j is a Java library, similar injection flaws can exist within Linux system utilities and configuration files that process user input without proper sanitization.
+
+**Privilege Escalation:** Exploiting vulnerabilities to gain higher privileges than initially authorized (e.g., from a standard user to root). Common techniques include:
+  - **SUID/SGID Binaries:** Executables with the SUID or SGID bit set run with the permissions of the owner or group, respectively. Misuse can lead to privilege escalation.
+  - **Exploiting Weak File Permissions:** Gaining access to files or directories that should be restricted.
+
+**Denial-of-Service (DoS):** Overwhelming system resources to make them unavailable to legitimate users. Can target network services, file systems, or the kernel itself.
+
+**Malware & Rootkits:** Malicious software designed to compromise a Linux system and maintain persistent access. Rootkits often hide their presence from standard detection methods.
+
+**Supply Chain Attacks:** Compromising software packages or dependencies used by Linux distributions can introduce vulnerabilities into systems that rely on them.
+
+### Mitigation Strategies
+| Strategy | Implmentations |
+|---|---|
+| Regular Patching | Keeping the kernel, libraries, and applications up-to-date is crucial to address known vulnerabilities. |
+| Hardening | Implementing security best practices such as disabling unnecessary services, restricting user privileges, and configuring firewalls. |
+| Intrusion Detection System (IDS) |  Monitoring system activity for suspicious behavior and automatically blocking malicious traffic. |
+| Security Auditing | Regularly reviewing system configurations and logs to identify potential vulnerabilities. |
+| Least Privilege Principle | Granting users and processes only the minimum necessary privileges to perform their tasks. |
+| Secure Coding Practices | Developing software with security in mind, avoiding common pitfalls such as buffer overflows and SQL injection. |
+
 ### Next Steps
 - [MacOS](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/macos.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
