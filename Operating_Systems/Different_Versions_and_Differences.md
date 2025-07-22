@@ -30,30 +30,55 @@ The term "difference" takes on various meanings within cybersecurity; understand
 Each OS possesses unique architectural features and inherent vulnerabilities. Security controls, user permissions models, and common attack vectors vary significantly.
   - **Example:** Windows' reliance on the registry presents specific attack surfaces not present in Linux-based systems. macOS’s sandboxing model offers a different level of protection compared to Windows' User Account Control (UAC).
 
-### Protocol Differences (HTTP vs. HTTPS, SSH vs. FTP): Choosing appropriate protocols is fundamental to secure communication.
+### Protocol Differences (HTTP vs. HTTPS, SSH vs. FTP)
+Choosing appropriate protocols is fundamental to secure communication.
+
 **HTTPS vs. HTTP**
 HTTPS provides encrypted communication using TLS/SSL, protecting data in transit from eavesdropping and tampering. Using HTTP exposes sensitive information.
 
 **SSH vs. FTP**
 SSH offers authenticated and encrypted file transfer, while FTP transmits credentials and data in plaintext.
-Threat Landscape Differences (Malware, Phishing, DDoS): Each threat type requires distinct mitigation strategies.
+
+### Threat Landscape Differences (Malware, Phishing, DDoS)
+Each threat type requires distinct mitigation strategies.
 Malware: Requires anti-malware software, intrusion detection systems (IDS), and endpoint detection and response (EDR) solutions.
 Phishing: Demands user awareness training, email filtering, and multi-factor authentication.
 Distributed Denial of Service (DDoS): Requires traffic scrubbing services, rate limiting, and content delivery networks (CDNs).
-3. Versioning Best Practices & Mitigation Strategies:
 
-Automated Patch Management: Implement automated patch management systems to ensure timely application of security updates across all systems.
-Vulnerability Scanning: Regularly scan systems for known vulnerabilities using both authenticated and unauthenticated scans.
-Software Composition Analysis (SCA): Employ SCA tools to identify vulnerable dependencies within software applications.
-Configuration Management: Maintain consistent configurations across systems to minimize attack surface.
-Regular Security Audits & Penetration Testing: Conduct periodic audits and penetration tests to identify weaknesses in security posture.
-Inventory Management: Maintain a comprehensive inventory of all hardware and software assets, including version numbers. This is crucial for vulnerability assessment and incident response.
-Zero Trust Architecture: Adopt a Zero Trust approach, verifying every user and device before granting access to resources, regardless of location or network segment.
-4. Attack Vectors Exploiting Versioning Failures:
+## Versioning Best Practices & Mitigation Strategies:
 
-Log4Shell (CVE-2021-44228): A critical vulnerability in the widely used Apache Log4j library demonstrated how a single vulnerable component could impact countless applications globally. The ability to inject malicious code through log messages highlighted the importance of dependency management and version control.
-Exploitation of Unpatched Systems: Attackers actively scan for systems running outdated software versions, targeting known vulnerabilities with readily available exploits.
-Supply Chain Attacks: Compromising a third-party vendor's software or development environment can introduce vulnerabilities into numerous downstream applications.
+### Automated Patch Management
+Implement automated patch management systems to ensure timely application of security updates across all systems.
+
+### Vulnerability Scanning
+Regularly scan systems for known vulnerabilities using both authenticated and unauthenticated scans.
+
+### Software Composition Analysis (SCA)
+Employ SCA tools to identify vulnerable dependencies within software applications.
+
+### Configuration Management
+Maintain consistent configurations across systems to minimize attack surface.
+
+### Regular Security Audits & Penetration Testing
+Conduct periodic audits and penetration tests to identify weaknesses in security posture.
+
+### Inventory Management
+Maintain a comprehensive inventory of all hardware and software assets, including version numbers. This is crucial for vulnerability assessment and incident response.
+
+### Zero Trust Architecture
+Adopt a Zero Trust approach, verifying every user and device before granting access to resources, regardless of location or network segment.
+
+## Attack Vectors Exploiting Versioning Failures:
+
+### Log4Shell (CVE-2021-44228)
+A critical vulnerability in the widely used Apache Log4j library demonstrated how a single vulnerable component could impact countless applications globally. The ability to inject malicious code through log messages highlighted the importance of dependency management and version control.
+
+### Exploitation of Unpatched Systems
+Attackers actively scan for systems running outdated software versions, targeting known vulnerabilities with readily available exploits.
+
+### Supply Chain Attacks
+Compromising a third-party vendor's software or development environment can introduce vulnerabilities into numerous downstream applications.
+
 ### Next Step
 - [Navigating Using GUI and CLI](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Navigating_using_GUI_and_CLI.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
