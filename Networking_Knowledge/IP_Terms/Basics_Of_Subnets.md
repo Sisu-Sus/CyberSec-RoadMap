@@ -23,10 +23,12 @@ A subnet mask acts as the key to this process. It tells your computer which part
 
 **--Authors Note--** I bought a $20 edge-router and did a whole subnet practice in my homelab. If anyone reads this and feels like a writeup on that would greatly help them please reach out so I can do that for you.
 
-### Resources
-- [https://roadmap.sh](https://roadmap.sh/cyber-security)
-- [https://www.cbtnuggets.com/blog/technology/networking/networking-basics-what-is-ipv4-subnetting](https://www.cbtnuggets.com/blog/technology/networking/networking-basics-what-is-ipv4-subnetting)
+
 
 ### Next Step
 - [Public vs Private IP Adresses](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/IP_Terms/Public_vs_Private_IP_Addresses.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
+
+  ### Resources
+- [https://roadmap.sh](https://roadmap.sh/cyber-security)
+- [https://www.cbtnuggets.com/blog/technology/networking/networking-basics-what-is-ipv4-subnetting](https://www.cbtnuggets.com/blog/technology/networking/networking-basics-what-is-ipv4-subnetting)
