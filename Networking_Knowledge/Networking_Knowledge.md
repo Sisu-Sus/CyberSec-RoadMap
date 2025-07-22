@@ -5,19 +5,19 @@ This document outlines essential networking principles and technologies crucial 
 Network protocols define the rules and formats governing data transmission across a network. Understanding these protocols is vital for identifying anomalies and potential attacks.
 
 ### TCP/IP (Transmission Control Protocol / Internet Protocol)
- - The foundational protocol suite for the internet. TCP provides reliable, connection-oriented communication; IP handles addressing and routing of packets. *Attack Vector: TCP SYN Flood – exploits the three-way handshake process to exhaust server resources.*
+  The foundational protocol suite for the internet. TCP provides reliable, connection-oriented communication; IP handles addressing and routing of packets. *Attack Vector: TCP SYN Flood – exploits the three-way handshake process to exhaust server resources.*
 
 ### DNS (Domain Name System)
- - Translates human-readable domain names (e.g., google.com) into numerical IP addresses. *Attack Vector: DNS Spoofing/Cache Poisoning - attackers inject false DNS records, redirecting users to malicious sites.*
+  Translates human-readable domain names (e.g., google.com) into numerical IP addresses. *Attack Vector: DNS Spoofing/Cache Poisoning - attackers inject false DNS records, redirecting users to malicious sites.*
 
 ### DHCP (Dynamic Host Configuration Protocol)
- - Automatically assigns IP addresses and other network configuration parameters to devices. *Attack Vector: Rogue DHCP Server – an attacker sets up a fake DHCP server to distribute incorrect configurations, potentially leading to man-in-the-middle attacks or denial of service.*
+  Automatically assigns IP addresses and other network configuration parameters to devices. *Attack Vector: Rogue DHCP Server – an attacker sets up a fake DHCP server to distribute incorrect configurations, potentially leading to man-in-the-middle attacks or denial of service.*
 
 ### HTTP/HTTPS (Hypertext Transfer Protocol/Secure)
- - Used for web communication. HTTPS provides encrypted communication using TLS/SSL. Attack Vector: HTTP Request Smuggling – exploits discrepancies in how front-end and back-end servers handle HTTP requests, allowing attackers to bypass security controls.
+  Used for web communication. HTTPS provides encrypted communication using TLS/SSL. Attack Vector: HTTP Request Smuggling – exploits discrepancies in how front-end and back-end servers handle HTTP requests, allowing attackers to bypass security controls.
 
 ### SMTP (Simple Mail Transfer Protocol)
- - Used for sending email. *Attack Vector: Email Spoofing - forging the "From" address of an email to appear as if it originated from a trusted source.*
+  Used for sending email. *Attack Vector: Email Spoofing - forging the "From" address of an email to appear as if it originated from a trusted source.*
 
 ## Network Topologies: Architectural Layouts and Implications
 Network topology describes the physical or logical arrangement of devices on a network. The chosen topology impacts performance, scalability, and resilience.
