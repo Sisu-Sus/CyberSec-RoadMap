@@ -37,10 +37,40 @@ The CREATE, READ, UPDATE, DELETE (CRUD) operations form the foundation of data m
 **Example (Python - Appending)
 
 ![CRUD Append Python](images/crud_append.png)
+
+**Potential Issues:**
+- **Data Corruption:** Incorrect update operations can lead to data corruption, especially if file system metadata is not updated correctly.
+- **Concurrency Conflicts:** Multiple processes attempting to update the same file simultaneously require robust locking mechanisms to prevent lost updates or inconsistent data.
+- **File Size Limits:** Filesystems have maximum size limits. Attempting to write beyond these limits will result in errors.
+
+## DELETE: File Removal
+**Definition:** The `DELETE` operation removes a file from the file system
+
+**Technical Details:** This involves deallocating the disk blocks associated with the file and removing its metadata entry. The space occupied by the file becomes available for reuse. Deletion is often logical; the data may remain on the disk until overwritten, making recovery possible.
+
+**Example (Python):**
+
+![CRUD DELETE Example](images/crud_delete.png)
+
+**Potential Issues:**
+- **Insufficient Permissions:** The process must have write permissions on the directory containing the file to be able to delete it, not necessarily on the file itself.
+
+- **Data Recovery:** Deleted files can sometimes be recovered using specialized tools if the disk space has not been overwritten. Secure deletion techniques (e.g., overwriting with random data) are necessary for sensitive information.
+
+## Security Considerations & Attack Vectors
+The CRUD operations, particularly CREATE and UPDATE, are frequent targets for attackers:
+
+  - **File Upload Vulnerabilities:** A common attack vector involves malicious users uploading files to a server. If the server does not properly validate file types, sizes, and content, attackers can upload executable code (e.g., PHP scripts, shell scripts) that can be executed on the server, leading to remote code execution. The OWASP File Upload Cheat Sheet is essential reading for developers handling user-uploaded files.
+  
+  - **Path Traversal:** Attackers may attempt to manipulate file paths in CREATE, READ, and UPDATE operations to access files outside of the intended directory (e.g., accessing /etc/passwd). Input validation and sanitization are crucial to prevent this.
+
+  - **Directory Listing:** Improperly configured web servers might allow attackers to browse directories, revealing file names and potentially sensitive information.
+
+  - **SQL Injection (Indirect):** If filenames or file contents are used in database queries without proper escaping, SQL injection vulnerabilities can arise.
+
 ### Next Steps
 - [Troubleshooting](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Troubleshooting.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
-
 
 ### Resource
 - [https://www.crowdstrike.com/en-us/cybersecurity-101/observability/crud/](https://www.crowdstrike.com/en-us/cybersecurity-101/observability/crud/)
