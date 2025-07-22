@@ -67,11 +67,7 @@ Effective permission management is critical for several reasons:
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
 
 ### Resource
-[https://linuxjourney.com/lesson/file-permissions](https://linuxjourney.com/lesson/file-permissions)"Operating System Concepts" by Silberschatz, Galvin, and Gagne: A foundational text covering OS principles including file systems and access control.
-POSIX Standards (e.g., POSIX.1-2008): Defines standard interfaces for operating system functionality, including permission models on Unix-like systems. Available online through various standards organizations.
-Microsoft Documentation on Access Control Lists (ACLs): Provides detailed information about Windows security model and ACL implementation. 
-https://learn.microsoft.com/en-us/windows/security/access-control/acls
-
-NIST Special Publication 800-53: Provides a catalog of security and privacy controls, including those related to access control. 
-https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
+- [https://linuxjourney.com/lesson/file-permissions](https://linuxjourney.com/lesson/file-permissions)
+- [Microsoft Documentation on Access Control Lists (ACLs)](https://learn.microsoft.com/en-us/windows/security/access-control/acls)
+- [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 
