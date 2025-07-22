@@ -50,5 +50,4 @@ Both GUIs and CLIs offer unique advantages for cybersecurity professionals. Whil
 - [Cybrary](https://www.cybrary.it/)
 - [OverTheWire - Bandit Wargame](https://overthewire.org/wargames/bandit/)
 - [TryHackMe](https://tryhackme.com/)
-- [Linux Command Line by William Shotts](https://linuxcommandline.org/)
 - [https://docs.microsoft.com/en-us/powershell/](https://docs.microsoft.com/en-us/powershell/)
