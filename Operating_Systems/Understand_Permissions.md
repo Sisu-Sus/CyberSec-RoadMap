@@ -68,6 +68,6 @@ Effective permission management is critical for several reasons:
 
 ### Resource
 - [https://linuxjourney.com/lesson/file-permissions](https://linuxjourney.com/lesson/file-permissions)
-- [Microsoft Documentation on Access Control Lists (ACLs)](https://learn.microsoft.com/en-us/windows/security/access-control/acls)
+- [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-identifiers](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-identifiers)
 - [NIST Special Publication 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 
