@@ -12,7 +12,7 @@ The CREATE, READ, UPDATE, DELETE (CRUD) operations form the foundation of data m
  ![CREATE Example In Python](images/crud_create.png)
 
 **Potential Issues:**
-    -**Race Conditions:** Multiple processes attempting to create a file with the same name simultaneously can lead to unpredictable behavior and data corruption. Proper locking mechanisms are essential in concurrent environments
+    - **Race Conditions:** Multiple processes attempting to create a file with the same name simultaneously can lead to unpredictable behavior and data corruption. Proper locking mechanisms are essential in concurrent environments
     -**Insufficient Permissions:** The process must have write permissions within the target directory.
 
 ## READ: File Content Retrieval
