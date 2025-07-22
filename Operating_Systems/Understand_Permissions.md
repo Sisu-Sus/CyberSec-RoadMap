@@ -2,18 +2,19 @@
 ## Introduction to Permissions
 Permissions in computing systems are a fundamental security mechanism that governs the level of access and actions authorized for users, processes, or system entities on resources such as files, directories, network shares, databases, and hardware devices. The core principle is least privilege: granting only the minimum necessary permissions required for an entity to perform its intended function. This minimizes the potential damage from accidental errors or malicious activity.
 
-Core Permission Types & Models
+## Core Permission Types & Models
 While specific implementations vary across operating systems and platforms, common permission types include:
+- **Read (r):** The ability to view the contents of a file or directory listing. For network resources, this might mean retrieving data.
+- **Write (w):** The ability to modify the content of a file or directory. This includes creating new files and directories within a directory if write permissions are granted on that directory.
+- **Execute (x):** The ability to run an executable file or script. For directories, this allows traversing into the directory.
 
-Read (r): The ability to view the contents of a file or directory listing. For network resources, this might mean retrieving data.
-Write (w): The ability to modify the content of a file or directory. This includes creating new files and directories within a directory if write permissions are granted on that directory.
-Execute (x): The ability to run an executable file or script. For directories, this allows traversing into the directory.
 These permission types are often combined and assigned at different levels:
+- **Owner:** The user who created the resource or has been explicitly designated as its owner.
+- **Group:** A collection of users with shared permissions. This facilitates managing access for teams or departments.
+- **Others (or World):** All other users on the system.
 
-Owner: The user who created the resource or has been explicitly designated as its owner.
-Group: A collection of users with shared permissions. This facilitates managing access for teams or departments.
-Others (or World): All other users on the system.
-Unix-like Systems: The rwx Model
+## Unix-like Systems: The rwx Model
+
 Unix and Linux systems traditionally employ a discrete permission model represented as rwx for owner, group, and others. For example, -rwxr-xr-- indicates:
 
 -: Regular file (as opposed to directory or link)
