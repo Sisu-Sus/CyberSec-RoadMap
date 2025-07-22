@@ -16,7 +16,7 @@ The predominant standard for VLAN configuration is IEEE 802.1Q. This standard de
 
 
 ### Next Step
-- [DMZ]()
+- [DMZ](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Terms_Cont/DMZ.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
 
 ### Resources
