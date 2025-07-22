@@ -2,7 +2,7 @@
 ### Introduction
 Software versioning is a critical aspect of modern software development and deployment. Beyond simply tracking changes, it directly impacts an organization’s security posture. This document explores the importance of software versions in cybersecurity, detailing the implications of outdated software, differences between various software types, and how understanding these nuances contributes to robust defense strategies.
 
-### The Significance of Software Versions in Security
+## The Significance of Software Versions in Security
 
 **Patching Vulnerabilities:** Software vulnerabilities are inevitable. Developers release patches (security updates) to address these flaws. These patches are typically bundled within new versions of the software. Running outdated software exposes systems to known exploits, significantly increasing attack surface.
   - **Example Attack Vector:** EternalBlue/WannaCry: The WannaCry ransomware outbreak exploited a vulnerability in older Windows operating system versions (specifically, those not patched with MS17-010). The availability of an exploit like EternalBlue highlighted the critical importance of timely patching.
@@ -13,7 +13,7 @@ Software versioning is a critical aspect of modern software development and depl
 
 **End of Life (EOL) & Extended Support:** Software vendors eventually declare a product EOL, meaning no further security updates will be provided. Continuing to use EOL software is an unacceptable risk. Extended support agreements may provide continued patching for a limited time but are often costly.
 
-### Understanding Differences in Cybersecurity Contexts
+## Understanding Differences in Cybersecurity Contexts
 The term "difference" takes on various meanings within cybersecurity; understanding these distinctions is crucial for effective mitigation strategies.
 
 **Software Type Differences (Open Source vs. Proprietary):**
@@ -38,7 +38,7 @@ Choosing appropriate protocols is fundamental to secure communication.
   - **Phishing:** Demands user awareness training, email filtering, and multi-factor authentication.
   - **Distributed Denial of Service (DDoS):** Requires traffic scrubbing services, rate limiting, and content delivery networks (CDNs).
 
-### Versioning Best Practices & Mitigation Strategies
+## Versioning Best Practices & Mitigation Strategies
 
 **Automated Patch Management:** Implement automated patch management systems to ensure timely application of security updates across all systems.
 
