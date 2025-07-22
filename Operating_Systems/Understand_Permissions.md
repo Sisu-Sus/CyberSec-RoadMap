@@ -55,13 +55,13 @@ Effective permission management is critical for several reasons:
 | Privilege Escalation | Attackers may attempt to exploit vulnerabilities to gain higher-level privileges than they are authorized for, bypassing permission restrictions. |
 
 ## Best Practices
-| | |
+| Practice | Implementation |
 |---|---|
 | Principle of Least Privilege | Always grant the minimum necessary permissions. |
-Regular Audits: Periodically review and verify permissions assignments.
-Centralized Management: Utilize centralized identity management systems (e.g., Active Directory) to simplify permission administration.
-Automated Enforcement: Implement automated tools and policies to enforce consistent permission settings.
-User Education: Train users on the importance of security best practices, including password hygiene and recognizing phishing attempts.
+|Regular Audits | Periodically review and verify permissions assignments. |
+|Centralized Management | Utilize centralized identity management systems (e.g., Active Directory) to simplify permission administration. |
+| Automated Enforcement | Implement automated tools and policies to enforce consistent permission settings. |
+| User Education | Train users on the importance of security best practices, including password hygiene and recognizing phishing attempts. |
 ### Next Step
 - [Installing Software And Applications](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Installing_Software_And_Applications.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
