@@ -58,3 +58,8 @@ While password complexity requirements were once considered best practice, moder
 ## Next Step
 - [Different Versions and Differences](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Different_Versions_and_Differences.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
+
+### Resources 
+- [Center for Internet Security (CIS) Benchmarks](https://www.cisecurity.org/benchmarks/)
+
+
