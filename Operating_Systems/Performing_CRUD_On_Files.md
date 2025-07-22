@@ -23,6 +23,20 @@ The CREATE, READ, UPDATE, DELETE (CRUD) operations form the foundation of data m
 **Example (Python):**
 
 ![Crud READ Example](images/crud_read.png)
+
+**Potential Issues:**
+**Buffer Overflows:** If the read buffer is too small to accommodate the file's contents, a buffer overflow can occur, potentially overwriting adjacent memory regions. This is less common with modern languages that handle memory management automatically but remains a concern in lower-level programming.
+
+**Denial of Service (DoS):** An attacker could create extremely large files to exhaust available disk space or memory during read operations, rendering the system unresponsive.
+
+## UPDATE: File Content Modification
+**Definition:** The `UPDATE` operation modifies existing data within a file.
+
+**Technical Details:** Updates can involve appending new data (adding to the end of the file) or overwriting existing content. Overwriting requires careful management of disk blocks and metadata updates. Some file systems support direct block addressing, while others use indirect methods.
+
+**Example (Python - Appending)
+
+![CRUD Append Python](images/crud_append.png)
 ### Next Steps
 - [Troubleshooting](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Troubleshooting.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
