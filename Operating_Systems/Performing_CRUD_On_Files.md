@@ -8,7 +8,7 @@ The CREATE, READ, UPDATE, DELETE (CRUD) operations form the foundation of data m
   - **Technical Details:** This typically involves allocating disk space (or equivalent storage) and creating metadata entries that describe the file (name, size, permissions, timestamps). In programming languages like Python, this is often achieved using modes like "w" (write - overwrites existing files if they exist) or "x" (exclusive creation – fails if the file already exists).
 
   - **Example (Python)**:
-    ![CREATE Example In Python](images/crud_create.png)
+   * ![CREATE Example In Python](images/crud_create.png)
 
 
 
