@@ -1,4 +1,4 @@
-# CyberSec-RoadMap (Bran-Strin)
+# CyberSec-RoadMap 
 
 This repo is my personal journey through the cybersecurity landscape, based on [https://roadmap.sh/cyber-security](https://roadmap.sh/cyber-security).
 
