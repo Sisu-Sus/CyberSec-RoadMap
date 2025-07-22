@@ -2,14 +2,12 @@
 ### Introduction
 Software versioning is a critical aspect of modern software development and deployment. Beyond simply tracking changes, it directly impacts an organization’s security posture. This document explores the importance of software versions in cybersecurity, detailing the implications of outdated software, differences between various software types, and how understanding these nuances contributes to robust defense strategies.
 
-## The Significance of Software Versions in Security
+### The Significance of Software Versions in Security
 
-### Patching Vulnerabilities
-Software vulnerabilities are inevitable. Developers release patches (security updates) to address these flaws. These patches are typically bundled within new versions of the software. Running outdated software exposes systems to known exploits, significantly increasing attack surface.
+**Patching Vulnerabilities:** Software vulnerabilities are inevitable. Developers release patches (security updates) to address these flaws. These patches are typically bundled within new versions of the software. Running outdated software exposes systems to known exploits, significantly increasing attack surface.
   - **Example Attack Vector:** EternalBlue/WannaCry: The WannaCry ransomware outbreak exploited a vulnerability in older Windows operating system versions (specifically, those not patched with MS17-010). The availability of an exploit like EternalBlue highlighted the critical importance of timely patching.
 
-### Feature Updates & Security Enhancements
-Newer versions often include security enhancements beyond simple patch fixes. These might involve architectural changes to improve resilience against emerging threats or the implementation of new security features (e.g., improved encryption algorithms, multi-factor authentication support).
+**Feature Updates & Security Enhancements:** Newer versions often include security enhancements beyond simple patch fixes. These might involve architectural changes to improve resilience against emerging threats or the implementation of new security features (e.g., improved encryption algorithms, multi-factor authentication support).
 
 ### Dependency Management
 Modern software relies on numerous third-party libraries and components. Vulnerabilities in these dependencies can indirectly compromise a system even if the core application is up-to-date. Versioning helps track and manage these dependencies to ensure they are also patched appropriately (Software Composition Analysis - SCA tools assist with this).
