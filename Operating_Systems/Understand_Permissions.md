@@ -1,6 +1,4 @@
 # Permissions Management in Computing Systems: A Technical Overview
-![Screenshot from LinuxJourney](images/fileperms.png)
-
 ## Introduction to Permissions
 Permissions in computing systems are a fundamental security mechanism that governs the level of access and actions authorized for users, processes, or system entities on resources such as files, directories, network shares, databases, and hardware devices. The core principle is least privilege: granting only the minimum necessary permissions required for an entity to perform its intended function. This minimizes the potential damage from accidental errors or malicious activity.
 
