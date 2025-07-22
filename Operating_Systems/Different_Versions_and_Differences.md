@@ -9,33 +9,29 @@ Software versioning is a critical aspect of modern software development and depl
 
 **Feature Updates & Security Enhancements:** Newer versions often include security enhancements beyond simple patch fixes. These might involve architectural changes to improve resilience against emerging threats or the implementation of new security features (e.g., improved encryption algorithms, multi-factor authentication support).
 
-### Dependency Management
-Modern software relies on numerous third-party libraries and components. Vulnerabilities in these dependencies can indirectly compromise a system even if the core application is up-to-date. Versioning helps track and manage these dependencies to ensure they are also patched appropriately (Software Composition Analysis - SCA tools assist with this).
+**Dependency Management:** Modern software relies on numerous third-party libraries and components. Vulnerabilities in these dependencies can indirectly compromise a system even if the core application is up-to-date. Versioning helps track and manage these dependencies to ensure they are also patched appropriately (Software Composition Analysis - SCA tools assist with this).
 
-### End of Life (EOL) & Extended Support
-Software vendors eventually declare a product EOL, meaning no further security updates will be provided. Continuing to use EOL software is an unacceptable risk. Extended support agreements may provide continued patching for a limited time but are often costly.
+**End of Life (EOL) & Extended Support:** Software vendors eventually declare a product EOL, meaning no further security updates will be provided. Continuing to use EOL software is an unacceptable risk. Extended support agreements may provide continued patching for a limited time but are often costly.
 
-## Understanding Differences in Cybersecurity Contexts:
-
+### Understanding Differences in Cybersecurity Contexts
 The term "difference" takes on various meanings within cybersecurity; understanding these distinctions is crucial for effective mitigation strategies.
 
-### Software Type Differences (Open Source vs. Proprietary)
-**Open-Source Software (OSS):** Benefits from community scrutiny, potentially leading to faster vulnerability discovery and patching. However, reliance on volunteer contributions can introduce inconsistencies in security practices. Licensing implications must also be considered.
+**Software Type Differences (Open Source vs. Proprietary):**
 
-**Proprietary Software:** Typically has dedicated development teams responsible for security updates. Patching cycles may be less frequent or predictable than OSS. Vendor lock-in is a potential concern.
+  - **Open-Source Software (OSS):** Benefits from community scrutiny, potentially leading to faster vulnerability discovery and patching. However, reliance on volunteer contributions can introduce inconsistencies in security practices. Licensing implications must also be considered.
 
-### Operating System (OS) Differences (Windows, Linux, macOS)
+  - **Proprietary Software:** Typically has dedicated development teams responsible for security updates. Patching cycles may be less frequent or predictable than OSS. Vendor lock-in is a potential concern.
+
+**Operating System (OS) Differences (Windows, Linux, macOS):**
 Each OS possesses unique architectural features and inherent vulnerabilities. Security controls, user permissions models, and common attack vectors vary significantly.
   - **Example:** Windows' reliance on the registry presents specific attack surfaces not present in Linux-based systems. macOS’s sandboxing model offers a different level of protection compared to Windows' User Account Control (UAC).
 
-### Protocol Differences (HTTP vs. HTTPS, SSH vs. FTP)
+**Protocol Differences (HTTP vs. HTTPS, SSH vs. FTP):**
 Choosing appropriate protocols is fundamental to secure communication.
 
-**HTTPS vs. HTTP**
-HTTPS provides encrypted communication using TLS/SSL, protecting data in transit from eavesdropping and tampering. Using HTTP exposes sensitive information.
+  - **HTTPS vs. HTTP:** HTTPS provides encrypted communication using TLS/SSL, protecting data in transit from eavesdropping and tampering. Using HTTP exposes sensitive information.
 
-**SSH vs. FTP**
-SSH offers authenticated and encrypted file transfer, while FTP transmits credentials and data in plaintext.
+  - **SSH vs. FTP:** SSH offers authenticated and encrypted file transfer, while FTP transmits credentials and data in plaintext.
 
 ### Threat Landscape Differences (Malware, Phishing, DDoS)
 Each threat type requires distinct mitigation strategies.
