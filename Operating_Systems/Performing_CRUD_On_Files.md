@@ -16,7 +16,13 @@ The CREATE, READ, UPDATE, DELETE (CRUD) operations form the foundation of data m
   - **Insufficient Permissions:** The process must have write permissions within the target directory.
 
 ## READ: File Content Retrieval
+**Definition:** The `READ` operation retrieves data from an existing file.
 
+**Technical Details:** This involves accessing the allocated disk blocks associated with the file and transferring their contents into memory. File systems often support various read modes (sequential, random access).
+
+**Example (Python):**
+
+![Crud READ Example](images/crud_read.png)
 ### Next Steps
 - [Troubleshooting](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Troubleshooting.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
