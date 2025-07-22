@@ -1,7 +1,7 @@
 # Networking Fundamentals
 This document outlines essential networking principles and technologies crucial for cybersecurity professionals. A solid foundation in networking is paramount for understanding vulnerabilities, implementing effective defenses, and responding to incidents.
 
-## 1. Network Protocols: The Langauge of Communication
+## Network Protocols: The Langauge of Communication
 Network protocols define the rules and formats governing data transmission across a network. Understanding these protocols is vital for identifying anomalies and potential attacks.
 
 ### TCP/IP (Transmission Control Protocol / Internet Protocol)
@@ -19,7 +19,7 @@ Used for web communication. HTTPS provides encrypted communication using TLS/SSL
 ### SMTP (Simple Mail Transfer Protocol)
 Used for sending email. *Attack Vector: Email Spoofing - forging the "From" address of an email to appear as if it originated from a trusted source.*
 
-## 2. Network Topologies: Architectural Layouts and Implications
+## Network Topologies: Architectural Layouts and Implications
 Network topology describes the physical or logical arrangement of devices on a network. The chosen topology impacts performance, scalability, and resilience.
 
 ### Star Topology
@@ -34,7 +34,7 @@ Each device is interconnected with multiple others, providing redundancy. *Advan
 ### Hybrid Topology
 A combination of different topologies. Common in larger networks.
 
-## 3. IP Addressing & Subnetting: Organizing Network Space
+## IP Addressing & Subnetting: Organizing Network Space
 Efficient network management relies on organized addressing schemes.
 
 ### IP Addresses (IPv4/IPv6)
@@ -46,7 +46,7 @@ Dividing a larger IP network into smaller, more manageable subnetworks. This imp
 ### CIDR (Classless Inter-Domain Routing)
  A method for representing IP address ranges using a slash notation (e.g., 192.168.1.0/24). This allows for more efficient allocation of IP addresses. *Understanding CIDR is crucial when analyzing routing tables and network configurations.*
 
- ## 4. Network Devices: The Building Blocks of Connectivity & Security
+ ## Network Devices: The Building Blocks of Connectivity & Security
  These devices perform specific functions within a network.
 
  ### Routers
@@ -64,7 +64,7 @@ Provide wireless network connectivity. Often vulnerable to unauthorized access i
  ### Intrusion Dectection/Prevention Systems (IDS/IPS)
 Monitor network traffic for malicious activity and either alert administrators (IDS) or actively block suspicious traffic (IPS).
 
-## 5. Network Security Measures: Protecting Data & Infastructure
+## Network Security Measures: Protecting Data & Infastructure
 Security measures are essential to protect the confidentiality, integrity, and availability of network resources.
 
 ### VPNs (Virtual Private Networks)
@@ -79,7 +79,7 @@ Dividing a network into isolated segments to limit the impact of security breach
 ### NAC (Network Access Control)
 Controls access to the network based on device posture and user identity.
 
-## 6. Network Troubleshooting: Diagnosis & Resolution
+## Network Troubleshooting: Diagnosis & Resolution
 Effective troubleshooting skills are vital for maintaining network stability and responding to incidents
 
 ### Ping
