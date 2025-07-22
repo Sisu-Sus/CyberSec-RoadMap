@@ -2,10 +2,10 @@
 
 ### macOS Security Deep Dive
 This document provides a technical overview of macOS security architecture, common attack vectors, and mitigation strategies. It assumes familiarity with basic networking concepts (TCP/IP, DNS) and general cybersecurity principles.
-
+---
 ### Core Security Architecture & Technologies
 macOS's security model is built upon several layers:
-
+---
 **Kernel Integrity Protection (KIP):** Prevents unauthorized modifications to the kernel. This utilizes code signing and system integrity protection (SIP).
   - **Code Signing:** All executables and system components must be digitally signed by Apple or a trusted developer. This verifies authenticity and ensures that software hasn't been tampered with. Verification failures result in denial of execution.
   - **System Integrity Protection (SIP):** Introduced in OS X El Capitan, SIP restricts access to protected system files and directories even for the root user. It significantly reduces the attack surface by limiting what can be modified at a low level. SIP is enabled by default and disabling it requires booting into Recovery Mode and entering a complex command.
@@ -22,7 +22,7 @@ macOS's security model is built upon several layers:
 **FileVault 2:** Full-disk encryption using XTS-AES-128 with a 256-bit key derived from the user's password or iCloud Keychain. Protects data at rest, preventing unauthorized access if the device is lost or stolen.
 
 **Secure Enclave Processor (SEP):** A dedicated hardware security module used for storing cryptographic keys and performing sensitive operations like Touch ID/Face ID authentication.
-
+---
 ### Common Attack Vectors & Vulnerabilities
 While macOS has robust security features, vulnerabilities exist and are actively exploited:
 
@@ -40,7 +40,7 @@ While macOS has robust security features, vulnerabilities exist and are actively
 **Privilege Escalation:** Exploiting vulnerabilities to gain higher privileges than initially authorized (e.g., from a standard user account to root). SIP bypasses are often required for successful privilege escalation.
 
 **Zero-Day Exploits:** Attacks leveraging previously unknown vulnerabilities, which have no available patch at the time of exploitation.
-
+---
 ### Mitigation Strategies & Best Practices
 **Keep macOS Updated:** Regularly install security updates from Apple to patch known vulnerabilities. Enable automatic updates where appropriate.
 
@@ -64,6 +64,7 @@ While macOS has robust security features, vulnerabilities exist and are actively
 
 This deep dive provides a foundational understanding of macOS security. Further research into specific vulnerabilities, exploitation techniques, and mitigation strategies is encouraged for those seeking advanced knowledge.
 
+---
 
 ### Next Steps
 - [Installation and Configuration](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Installation_and_Configuration.md)
