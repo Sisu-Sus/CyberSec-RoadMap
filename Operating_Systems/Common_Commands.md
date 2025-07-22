@@ -12,7 +12,7 @@ The ability to efficiently navigate the file system is paramount for any system 
   - `pwd`: Prints the absolute path of the current working directory. Useful for confirming location and avoiding errors when scripting.
  
 - **Windows**
-  - `dir:` Equivalent to `ls`. Options like `/a` (attribute display), `/b `(bare format, no header or summary information), and `/s` (recursive listing) are common.
+  - `dir`: Equivalent to `ls`. Options like `/a` (attribute display), `/b `(bare format, no header or summary information), and `/s` (recursive listing) are common.
  
   - `cd`: Identical functionality to the Unix/Linux command.
  
@@ -24,7 +24,7 @@ These commands enable manipulation of files and directories, a frequent target f
 - **Unix/Linux**
     - `cp [options] source destination`: Copies files or directories. `-r` (recursive) is essential for copying entire directory structures. Improper use can lead to denial-of-service if large files are copied without sufficient disk space.
 
-    - `mv [options] source destination:` Moves (renames) files or directories. Careless renaming can disrupt system functionality and data integrity.
+    - `mv [options] source destination`: Moves (renames) files or directories. Careless renaming can disrupt system functionality and data integrity.
 
     - `rm [options] file(s)`: Removes files. Extremely dangerous! The `-f` (force) option bypasses prompts, making accidental deletion irreversible. The `-r` option is required for removing directories recursively. Malware often uses `rm -rf` / as a destructive payload.
 
@@ -72,6 +72,29 @@ Properly configured file permissions are a cornerstone of security.
     - `attrib [options] file(s)`: Changes file attributes, such as read-only or hidden. Attackers may use this to conceal malicious files.
  
 ## V. Network Commands
+Network connectivity testing and monitoring are essential for security assessments.
+
+- **Unix/Linux**
+  - `ping <hostname/IP>`: Tests network reachability by sending ICMP echo requests. Can be used to verify connectivity or perform basic reconnaissance. ICMP blocking is a common defense mechanism.
+
+  - `ifconfig` / `ip addr`: Configures and displays network interface information (IP address, subnet mask, gateway). The `ip` command is the modern replacement for `ifconfig`.
+
+  - `netstat -an`: Displays active network connections and listening ports. Useful for identifying suspicious outbound connections or unauthorized services. Replaced by `ss` in newer systems.
+
+- **Windows**
+  - `ping <hostname/IP>`: Equivalent to the Unix/Linux command.
+
+  - `ipconfig /all`: Displays network configuration information, including IP address, DNS servers, and MAC address.
+
+  - `netstat -an`: Displays active network connections and listening ports (similar functionality to `netstat` on Linux).
+ 
+Mastering these fundamental command-line operations is a prerequisite for effective cybersecurity practice. Understanding not only their intended use but also potential misuse scenarios is crucial for identifying and mitigating security risks. Regular practice and experimentation in a controlled environment are highly recommended.
+
+
 ### Next Step
 - [Networking Knowledge](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Networking_Knowledge/Networking_Knowledge.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
+
+### Resources / Study Sources
+- [https://linuxcommandline.org/](https://linuxcommandline.org/)
+- [https://learn.microsoft.com/en-us/windows-commandline/](https://learn.microsoft.com/en-us/windows-commandline/)
