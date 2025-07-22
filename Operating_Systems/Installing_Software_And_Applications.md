@@ -60,3 +60,8 @@ By adhering to these guidelines, users can significantly enhance the security of
 ### What Next
 - [Performing CRUD On Files](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/Operating_Systems/Performing_CRUD_On_Files.md)
 - [Index](https://github.com/Sisu-Sus/CyberSec-RoadMap/blob/main/index.md)
+
+### Resources / Study Sources
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [Android Security Bulletins](https://source.android.com/security/bulletin)
+- [Apple Security Updates](https://support.apple.com/en-us/HT201222)
