@@ -13,8 +13,8 @@ The Transmission Control Protocol/Internet Protocol (TCP/IP) suite isn't a singl
 
 - **UDP (User Datagram Protocol):** A connectionless protocol offering faster transmission but without the reliability features of TCP. Suitable for real-time applications where occasional packet loss is acceptable (e.g., streaming media, online gaming).
 
-### Attack Vectors
-IP spoofing (falsifying source IP addresses), ICMP flooding (Denial of Service attacks exploiting ping requests), TCP SYN flood attacks (exploiting the TCP handshake process to exhaust server resources).
+### Attack Vectors:
+- IP spoofing (falsifying source IP addresses), ICMP flooding (Denial of Service attacks exploiting ping requests), TCP SYN flood attacks (exploiting the TCP handshake process to exhaust server resources).
 
 
 ### Next Steps
